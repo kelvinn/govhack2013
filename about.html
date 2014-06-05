@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stay Here Not There!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://govhack2013.kelvinism.com/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+
+    <link href="http://govhack2013.kelvinism.com/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://govhack2013.kelvinism.com/static/bootstrap/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://govhack2013.kelvinism.com/static/bootstrap/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://govhack2013.kelvinism.com/static/bootstrap/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://govhack2013.kelvinism.com/static/bootstrap/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://govhack2013.kelvinism.com/static/bootstrap/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">Stay Here Not There</a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              <a href="?lang=en-us" class="navbar-link">English</a> |
+              <a href="?lang=zh" class="navbar-link">中文</a> |
+              <a href="?lang=jp" class="navbar-link">日本語</a>
+            </p>
+            <ul class="nav">
+              <li><a href="/index.html">Where To Live</a></li>
+              <li><a href="/safe.html">Stay Safe</a></li>
+              <li><a href="/friends.html">Meet New Friends</a></li>
+              <li><a href="/essential.html">First Essentials</a></li>
+              <li class="active"><a href="/about.html">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="hero-unit">
+            	<h1>About</h1>
+                <h2>Some bits and pieces about this project...</h2>
+                <p><strong><span>Our Goal:</span></strong></p>
+
+                <p class="rteindent1">Australia's international education activities generate over $15 billion of export income annually.&nbsp;The education industry is important for Australian and the well being of the international students&nbsp;is the key point to tighten the relationship. Our hack aims to help tackle the seven key issues which&nbsp;identified by the NSW Government for enhancing the well being of the international students.&nbsp;</p>
+
+                <p><strong>Novel Data Sets Generated:</strong></p>
+
+                <p class="rteindent1">1. One-to-one travel zone (TZ) to LGA mapping.<br />
+                2. TZ-to-TZ travel time via the mode of public transportation.<br />
+                3.&nbsp;<span>TZ-</span><span>to-School&nbsp;travel time via the mode of public transportation.</span><br />
+                4.&nbsp;<span>TZ-</span><span>to-School&nbsp;travel time via the mode of push bike.</span></p>
+
+
+                <p><strong>Methodology</strong></p>
+                <p>We first gathered data for every university location and geocoded each address to a lat/lng point. In the
+              meantime we imported TfNSW's newly released GTFS files, describing public transport time tables, into
+              the open source tool OpenTripPlanner. We then used OTP's Analyst function to create origin/destination pairs between
+              every travel zone (to every travel zone), as well as from every university to every travel zone. In addition, we also
+              computed the bicycle time from every travel zone to each university, placing priority on cycling on 'safe' roads. Because everything
+              is spatial, we are able to display only travel zones located within ~45m of each campus, <i>by public transport</i><p>
+
+              <p>After the O/D pairs were generated we imported ABS' geographic information (ASGS 2011) into PostGIS. We also
+              imported the travel zone shapefiles from the Bureau of Transport Statistics. Because all of the information was in a spatial database we could do neat queries like
+              finding out where the centre of each travel zone intersects an LGA, which allowed us to build a relation between
+              the different metrics. Every hospital, supermarket and clinic was imported into PostGIS from OpenStreetMap, and
+              we ran spatial queries from the centre of every travel zone to count how many services were within walking distance.</p>
+
+              <p>With less than 6 hours to go we put a frontend to all the generated data, including building an API to access
+              information about each travel zone when clicked. Visualising the data with Leaflet was a trivial activity.</p>
+
+              <p>Our database is about 4GB large, which is almost entirely spatial data. We are quite proud of the amount of spatial
+              information (from over five sources).</p>
+
+                <p><strong>How do we calculate the liveability metrics?</strong></p>
+
+                <p class="rteindent1"><span>1.Travel time by public transportation (or bike) from the designated school were computed for each travel zone and then given a score from 1 to 100. Higher score for shorter commute.</span><br />
+                <span>2.Crime incidents in 2011 were matched with population data by LGA from ABS and recalculated as the population-based crime rate by LGA. A 1 to 100 score was then assigned to each LGA and populated to match each travel zone. Higher score for safer neighborhoods.&nbsp;</span><br />
+                <span>3.Accessibility of service facilities (i.e. public library, health facility and supermarket) were calculated based on a 2 km radius distance for each travel zone. A score of 0, 33, 66 or 100 was then assigned for each travel zone based on the total number of the facilities near by.&nbsp;</span><br />
+                <span>4.The average rent cost (house and unit combined) by LGA were calculated based on the report for the 1st quater in 2013. The data then populated for each travel zone and given a score from 1 to 100. Note: Public data were only availibly for 57 LGA, therefore, we did not factor in the rental cost for the area lack of the data.&nbsp;</span><br />
+                <span>5.The overall score then calculated by averaging the scores from the above four(or three for some area) criterions.&nbsp;</span></p>
+
+
+                <p><strong>Tools we used:</strong></p>
+
+                <p class="rteindent1"><span>1.Python&nbsp;</span><br />
+                <span>2.Postgreaql&nbsp;</span><br />
+                <span>3.SQLAlchemy&nbsp;</span><br />
+                <span>4.GEOAlchemy&nbsp;</span><br />
+                <span>5.PostGIS&nbsp;</span><br />
+                <span>6.jQuery&nbsp;</span><br />
+                <span>7.QGIS&nbsp;</span>
+                <span>8.OpenTripPlanner&nbsp;</span></br />
+                <span>9.Leaflet&nbsp;</span></br />
+                <span>10.Twitter Bootstrap&nbsp;</span></br />
+                <span>11.Django&nbsp;</span></br />
+                <span>12.Apache&nbsp;</span></br />
+                <span>13.Ubuntu (AWS cheers!)&nbsp;</span></br />
+                <span>14.And Excel.&nbsp;</span></br />
+                </p>
+
+                <p><strong>Major Achievements​:</strong></p>
+
+                <p class="rteindent1">1. Public transportation time.<br />
+                2. Meshed multiple data sets from 8 agencies&nbsp;(and potential to include more!).<br />
+                3. Create&nbsp;the&nbsp;liveability metric for international students.<br />
+                4. Our website is designed to tackle the seven key issues which are identified by the NSW Government to&nbsp;impact the well-being of international students.</p>
+
+                <p><strong>List of Data Sets Were Meshed:</strong></p>
+
+                <p class="rteindent1">1. Travel zone spatial data from Australian Bureau of Statistics.<br />
+                2. GTFS Timetable data from Transportation of NSW.<br />
+                3. ASGS 2011 spatial and population data from Australian Bureau of Statistics.<br />
+                4. Rent &amp; sale report from NSW Department of Housing.<br />
+                5. Record crime data base - NSW from Department of Justice &amp; Attorney General.<br />
+                6. Public libraries in NSW directory from NSW State Library.<br />
+                7. Public health care facilities from NSW Ministry of Health.<br />
+                8. Clinics, doctors, grocery and supermarkets location from Openstreet map.</p>
+
+                <p><strong>Future Potentials:</strong></p>
+
+                <p>There are a couple features that we'd like to add (<em>had we have just a few more extra hours.....</em>)</p>
+
+                <p class="rteindent1">1. The frame work of our hack is easy to adjust for different target users (e.g. add childcare, primary education information for families of overseas talents)<br />
+                2. Add the community diversity profile and other service facilities.<br />
+                3. Flicker integration with travel zones.<br />
+                4. Better events integration with travel zones.<br />
+                5. Multiple languages support. My better half has already translated the templates.<br />
+                6. Add more information when the TZ is clicked. Have data, ran out of time...</p>
+                </p>
+                
+          </div>
+
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+        <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+        <br /><span xmlns:dct="http://purl.org/dc/terms/" 
+        property="dct:title">Stay Here Not There</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">
+        Kelvin Nicholson & Yan-Shih Lin</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+        Creative Commons Attribution 3.0 Unported License</a>.</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/jquery.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-button.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="http://govhack2013.kelvinism.com/static/bootstrap/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
