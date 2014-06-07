@@ -1,0 +1,2669 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.2S">
+	<bounds minlat="-34.865" minlon="149.343" maxlat="-32.384" maxlon="151.908"/>
+	<node id="12050173" lat="-33.89099" lon="151.1791"/>
+	<node id="18255249" lat="-34.03626" lon="151.11382">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Sutherland Hospital"/>
+	</node>
+	<node id="26374940" lat="-33.88045" lon="151.22068">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="St. Vincents Hospital"/>
+		<tag k="url" v="http://www.stvincents.com.au/"/>
+	</node>
+	<node id="26382289" lat="-33.68728" lon="151.30548"/>
+	<node id="26382293" lat="-33.68644" lon="151.30526"/>
+	<node id="26382298" lat="-33.68524" lon="151.3055"/>
+	<node id="26382302" lat="-33.68458" lon="151.30612"/>
+	<node id="26382360" lat="-33.68394" lon="151.30833"/>
+	<node id="26409019" lat="-33.82268" lon="151.19164"/>
+	<node id="28374265" lat="-33.97577" lon="151.1361">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Calvary Health Care Sydney"/>
+		<tag k="note" v="No emergency services"/>
+		<tag k="old_name" v="Calvary Hospital"/>
+	</node>
+	<node id="29893546" lat="-33.73478" lon="151.0975"/>
+	<node id="29893547" lat="-33.73503" lon="151.09845"/>
+	<node id="29893548" lat="-33.73509" lon="151.09907"/>
+	<node id="29893549" lat="-33.73517" lon="151.09992"/>
+	<node id="29893550" lat="-33.73497" lon="151.09997"/>
+	<node id="29893552" lat="-33.73253" lon="151.10143"/>
+	<node id="29893554" lat="-33.73143" lon="151.1002"/>
+	<node id="30235375" lat="-33.73353" lon="151.09643"/>
+	<node id="30235376" lat="-33.73283" lon="151.097"/>
+	<node id="30235379" lat="-33.73211" lon="151.09775"/>
+	<node id="30235380" lat="-33.73198" lon="151.09878"/>
+	<node id="43270672" lat="-33.91675" lon="151.23806"/>
+	<node id="49146777" lat="-33.91693" lon="151.23942"/>
+	<node id="54893783" lat="-33.73372" lon="151.1004"/>
+	<node id="54893787" lat="-33.73337" lon="151.10066"/>
+	<node id="54893790" lat="-33.7327" lon="151.10126"/>
+	<node id="98656604" lat="-34.43911" lon="150.85118">
+		<tag k="amenity" v="hospital"/>
+		<tag k="created_by" v="JOSM"/>
+		<tag k="name" v="Figtree Private Hospital"/>
+	</node>
+	<node id="139666313" lat="-33.80343" lon="150.99566"/>
+	<node id="139666314" lat="-33.80402" lon="150.99505"/>
+	<node id="141838850" lat="-33.79745" lon="150.99903"/>
+	<node id="141838851" lat="-33.80001" lon="151.00063"/>
+	<node id="141841214" lat="-33.80367" lon="150.9996"/>
+	<node id="141841225" lat="-33.80316" lon="151.0007"/>
+	<node id="141841226" lat="-33.80342" lon="151.00089"/>
+	<node id="141841227" lat="-33.8035" lon="151.00131"/>
+	<node id="141841229" lat="-33.80126" lon="151.00179"/>
+	<node id="141841230" lat="-33.79989" lon="151.00089"/>
+	<node id="141841231" lat="-33.79785" lon="150.9985"/>
+	<node id="141841232" lat="-33.79812" lon="150.99713"/>
+	<node id="141842828" lat="-33.8063" lon="150.98839"/>
+	<node id="141844557" lat="-33.80391" lon="150.9966"/>
+	<node id="141844558" lat="-33.80304" lon="150.99738"/>
+	<node id="141844563" lat="-33.80014" lon="150.99568"/>
+	<node id="141844565" lat="-33.79964" lon="150.99189"/>
+	<node id="141844566" lat="-33.79933" lon="150.9902"/>
+	<node id="141844567" lat="-33.79965" lon="150.98898"/>
+	<node id="141844568" lat="-33.7999" lon="150.98799"/>
+	<node id="141844569" lat="-33.8" lon="150.98621"/>
+	<node id="141844570" lat="-33.79991" lon="150.98476"/>
+	<node id="141844571" lat="-33.79975" lon="150.98395"/>
+	<node id="141844572" lat="-33.80021" lon="150.98312"/>
+	<node id="141844573" lat="-33.80071" lon="150.98299"/>
+	<node id="141844575" lat="-33.80309" lon="150.98386"/>
+	<node id="141844578" lat="-33.8033" lon="150.98436"/>
+	<node id="173154246" lat="-33.86775" lon="151.21249"/>
+	<node id="173154247" lat="-33.86776" lon="151.2127"/>
+	<node id="173154249" lat="-33.86809" lon="151.21269"/>
+	<node id="173154250" lat="-33.86814" lon="151.2132"/>
+	<node id="173154251" lat="-33.86827" lon="151.2132"/>
+	<node id="173154252" lat="-33.86826" lon="151.21301"/>
+	<node id="173154253" lat="-33.86836" lon="151.21301"/>
+	<node id="173154254" lat="-33.86832" lon="151.21266"/>
+	<node id="173154255" lat="-33.86864" lon="151.2126"/>
+	<node id="173154257" lat="-33.86863" lon="151.21238"/>
+	<node id="173154258" lat="-33.86833" lon="151.21243"/>
+	<node id="173154259" lat="-33.86831" lon="151.21238"/>
+	<node id="173154260" lat="-33.86798" lon="151.2124"/>
+	<node id="173154262" lat="-33.86798" lon="151.21247"/>
+	<node id="174278316" lat="-33.85926" lon="151.18181">
+		<tag k="amenity" v="hospital"/>
+		<tag k="created_by" v="JOSM"/>
+		<tag k="name" v="Balmain Hospital"/>
+	</node>
+	<node id="202597378" lat="-33.96634" lon="151.13568"/>
+	<node id="246009567" lat="-33.68429" lon="151.3086"/>
+	<node id="246009568" lat="-33.68571" lon="151.30844"/>
+	<node id="246009569" lat="-33.68737" lon="151.30554"/>
+	<node id="246201665" lat="-33.92017" lon="151.09952"/>
+	<node id="246201666" lat="-33.92067" lon="151.09829"/>
+	<node id="246201667" lat="-33.91872" lon="151.09719"/>
+	<node id="246201668" lat="-33.91827" lon="151.09846"/>
+	<node id="246531250" lat="-33.89503" lon="151.12975"/>
+	<node id="246531251" lat="-33.89503" lon="151.12881"/>
+	<node id="246531252" lat="-33.89364" lon="151.12885"/>
+	<node id="246531253" lat="-33.89364" lon="151.12944"/>
+	<node id="246531254" lat="-33.8934" lon="151.12937"/>
+	<node id="246531255" lat="-33.8934" lon="151.12985"/>
+	<node id="247298297" lat="-33.80524" lon="151.29358"/>
+	<node id="247298298" lat="-33.80611" lon="151.29268"/>
+	<node id="247298299" lat="-33.80652" lon="151.29305"/>
+	<node id="247298300" lat="-33.80732" lon="151.2952"/>
+	<node id="247298301" lat="-33.80778" lon="151.29524"/>
+	<node id="247298302" lat="-33.80769" lon="151.2959"/>
+	<node id="247298303" lat="-33.80696" lon="151.29568"/>
+	<node id="247298304" lat="-33.80662" lon="151.29528"/>
+	<node id="247298305" lat="-33.8061" lon="151.29556"/>
+	<node id="247298306" lat="-33.80562" lon="151.29532"/>
+	<node id="251478960" lat="-33.79626" lon="151.09136"/>
+	<node id="251478961" lat="-33.79669" lon="151.09066"/>
+	<node id="251478962" lat="-33.79629" lon="151.08933"/>
+	<node id="251478963" lat="-33.79507" lon="151.08939"/>
+	<node id="251478964" lat="-33.79472" lon="151.09001"/>
+	<node id="253086883" lat="-33.93322" lon="151.02076">
+		<tag k="amenity" v="hospital"/>
+		<tag k="created_by" v="Potlatch 0.7b"/>
+		<tag k="name" v="Bankstown Hospital"/>
+	</node>
+	<node id="256175465" lat="-33.7339" lon="151.09983">
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="256175466" lat="-33.73382" lon="151.09996"/>
+	<node id="256175467" lat="-33.73319" lon="151.09946"/>
+	<node id="256175468" lat="-33.73277" lon="151.09933"/>
+	<node id="256175469" lat="-33.7329" lon="151.09874"/>
+	<node id="256175470" lat="-33.73332" lon="151.09887"/>
+	<node id="256175471" lat="-33.73328" lon="151.09906"/>
+	<node id="256175472" lat="-33.73372" lon="151.09945"/>
+	<node id="256175473" lat="-33.73364" lon="151.09959"/>
+	<node id="256184439" lat="-33.82042" lon="151.18869"/>
+	<node id="256184440" lat="-33.82108" lon="151.18916"/>
+	<node id="256184441" lat="-33.82071" lon="151.18994"/>
+	<node id="256184442" lat="-33.82053" lon="151.18981"/>
+	<node id="256184443" lat="-33.82066" lon="151.18952"/>
+	<node id="256184444" lat="-33.82017" lon="151.18917"/>
+	<node id="265946804" lat="-33.91937" lon="151.09847">
+		<tag k="amenity" v="hospital"/>
+		<tag k="designation" v="Canterbury Public Hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Canterbury Hospital"/>
+		<tag k="source" v="Personal Knowledge and NSW Health Website"/>
+	</node>
+	<node id="266153859" lat="-33.89457" lon="151.20305">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Rachel Forster Hospital"/>
+		<tag k="source" v="knowledge"/>
+	</node>
+	<node id="267610874" lat="-34.55934" lon="150.84792">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Shellharbour Private Hospital"/>
+	</node>
+	<node id="267614585" lat="-34.55876" lon="150.84251">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Shellharbour Hospital"/>
+	</node>
+	<node id="276568260" lat="-34.4858" lon="150.88134">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Port Kembla Hospital"/>
+	</node>
+	<node id="283322387" lat="-32.92284" lon="151.6978">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Newcastle Private Hospital"/>
+	</node>
+	<node id="283322506" lat="-32.92404" lon="151.69677">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Rankin Park Hospital"/>
+	</node>
+	<node id="288740037" lat="-33.33684" lon="151.43241"/>
+	<node id="288740038" lat="-33.337" lon="151.43235"/>
+	<node id="288740039" lat="-33.33728" lon="151.43228"/>
+	<node id="288740040" lat="-33.33729" lon="151.43234"/>
+	<node id="288740041" lat="-33.33744" lon="151.43232"/>
+	<node id="288740042" lat="-33.33757" lon="151.43284"/>
+	<node id="288740043" lat="-33.33757" lon="151.43307"/>
+	<node id="288740044" lat="-33.33731" lon="151.43315"/>
+	<node id="288740045" lat="-33.33731" lon="151.43323"/>
+	<node id="288740046" lat="-33.33722" lon="151.43325"/>
+	<node id="288740047" lat="-33.33722" lon="151.43317"/>
+	<node id="288740048" lat="-33.33709" lon="151.43318"/>
+	<node id="288740049" lat="-33.33712" lon="151.43338"/>
+	<node id="288740050" lat="-33.33696" lon="151.4334"/>
+	<node id="302755505" lat="-33.82943" lon="151.21803">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Neutral Bay Medical Centre"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="331157250" lat="-33.43505" lon="149.5885">
+		<tag k="amenity" v="hospital"/>
+		<tag k="hospital:type" v="private"/>
+		<tag k="name" v="Bathurst Private Hospital"/>
+		<tag k="website" v="http://bathurstprivate.com.au/"/>
+	</node>
+	<node id="333038578" lat="-33.75156" lon="151.2878">
+		<tag k="amenity" v="clinic"/>
+		<tag k="name" v="Warringah Medical Centre"/>
+	</node>
+	<node id="340367870" lat="-33.40683" lon="149.57158"/>
+	<node id="343348079" lat="-33.70531" lon="150.32105">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Blue Mountains District ANZAC Memorial Hospital"/>
+	</node>
+	<node id="359900769" lat="-32.93973" lon="151.65896">
+		<tag k="amenity" v="doctors"/>
+		<tag k="created_by" v="Merkaartor 0.13"/>
+	</node>
+	<node id="359902121" lat="-32.94115" lon="151.66012">
+		<tag k="amenity" v="doctors"/>
+		<tag k="created_by" v="Merkaartor 0.13"/>
+	</node>
+	<node id="359902127" lat="-32.94059" lon="151.66023">
+		<tag k="amenity" v="doctors"/>
+		<tag k="created_by" v="Merkaartor 0.13"/>
+		<tag k="name" v="Cardiff General Practice"/>
+	</node>
+	<node id="360492741" lat="-34.06191" lon="150.6936"/>
+	<node id="360492742" lat="-34.06212" lon="150.69393"/>
+	<node id="360492743" lat="-34.06217" lon="150.69389"/>
+	<node id="360492744" lat="-34.06234" lon="150.69425"/>
+	<node id="360492745" lat="-34.06304" lon="150.69368"/>
+	<node id="360492746" lat="-34.06296" lon="150.69356"/>
+	<node id="360492747" lat="-34.0626" lon="150.69389"/>
+	<node id="360492748" lat="-34.06247" lon="150.69366"/>
+	<node id="360492749" lat="-34.06257" lon="150.69363"/>
+	<node id="360492751" lat="-34.06281" lon="150.69364"/>
+	<node id="360492752" lat="-34.06286" lon="150.69338"/>
+	<node id="360492753" lat="-34.06246" lon="150.69339"/>
+	<node id="360492754" lat="-34.06228" lon="150.69348"/>
+	<node id="360492755" lat="-34.0622" lon="150.69335"/>
+	<node id="419480372" lat="-34.48407" lon="150.42352">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Bowral &#38; District Hospital"/>
+	</node>
+	<node id="426899449" lat="-33.74443" lon="150.61002">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Blue Mountains Family Practice"/>
+		<tag k="source" v="survey"/>
+	</node>
+	<node id="446876067" lat="-32.88643" lon="151.71948">
+		<tag k="amenity" v="doctors"/>
+	</node>
+	<node id="448236603" lat="-32.89737" lon="151.73631">
+		<tag k="amenity" v="doctors"/>
+	</node>
+	<node id="448598835" lat="-33.92043" lon="150.92938">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Liverpool"/>
+	</node>
+	<node id="448598841" lat="-33.92072" lon="150.93014">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Liverpool Emergency"/>
+	</node>
+	<node id="448598847" lat="-33.91913" lon="150.92989">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Liverpool"/>
+	</node>
+	<node id="453717345" lat="-33.69201" lon="151.09289">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Mount Wilga Private Hospital"/>
+	</node>
+	<node id="455579354" lat="-33.83137" lon="151.20115"/>
+	<node id="455579355" lat="-33.83191" lon="151.20097"/>
+	<node id="455579356" lat="-33.83261" lon="151.20153"/>
+	<node id="455579357" lat="-33.83208" lon="151.2025"/>
+	<node id="455579358" lat="-33.83107" lon="151.20171"/>
+	<node id="455579359" lat="-33.83168" lon="151.2014"/>
+	<node id="456682888" lat="-33.82419" lon="151.20036">
+		<tag k="amenity" v="doctors"/>
+		<tag k="source" v="survey"/>
+	</node>
+	<node id="465200734" lat="-33.6102" lon="150.81879">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Hawkesbury Hospital"/>
+	</node>
+	<node id="469633222" lat="-33.80972" lon="151.18587">
+		<tag k="amenity" v="doctors"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="474379753" lat="-33.26532" lon="151.54089"/>
+	<node id="474379754" lat="-33.26535" lon="151.54117"/>
+	<node id="474379755" lat="-33.26481" lon="151.54125"/>
+	<node id="474379756" lat="-33.26476" lon="151.54097"/>
+	<node id="476077800" lat="-33.26068" lon="151.48336"/>
+	<node id="476077804" lat="-33.2596" lon="151.48073"/>
+	<node id="476077806" lat="-33.25923" lon="151.47925"/>
+	<node id="476077808" lat="-33.2589" lon="151.47654"/>
+	<node id="476077812" lat="-33.26194" lon="151.47787"/>
+	<node id="476077813" lat="-33.26241" lon="151.48086"/>
+	<node id="476077817" lat="-33.26252" lon="151.4812"/>
+	<node id="476077820" lat="-33.26225" lon="151.4817"/>
+	<node id="476077821" lat="-33.2609" lon="151.48398"/>
+	<node id="476077832" lat="-33.26348" lon="151.47849"/>
+	<node id="477193235" lat="-32.72539" lon="151.5448"/>
+	<node id="477193236" lat="-32.72651" lon="151.54538"/>
+	<node id="477193237" lat="-32.72752" lon="151.54594"/>
+	<node id="477193238" lat="-32.72781" lon="151.54612"/>
+	<node id="477193239" lat="-32.72784" lon="151.54639"/>
+	<node id="477193240" lat="-32.72781" lon="151.54665"/>
+	<node id="477193241" lat="-32.72676" lon="151.54663"/>
+	<node id="477193242" lat="-32.7251" lon="151.54592"/>
+	<node id="477193243" lat="-32.72459" lon="151.54574"/>
+	<node id="477193244" lat="-32.72437" lon="151.54455"/>
+	<node id="477193245" lat="-32.72439" lon="151.54433"/>
+	<node id="477193246" lat="-32.72456" lon="151.54435"/>
+	<node id="477193247" lat="-32.72519" lon="151.54473"/>
+	<node id="490870542" lat="-32.94043" lon="151.75554">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Lingard Private Hospital"/>
+	</node>
+	<node id="493340446" lat="-32.92664" lon="151.77843">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Newcastle Family Practise"/>
+	</node>
+	<node id="499618176" lat="-33.96757" lon="151.13637"/>
+	<node id="499618179" lat="-33.96651" lon="151.13616"/>
+	<node id="499618180" lat="-33.96638" lon="151.13661"/>
+	<node id="520760844" lat="-33.94846" lon="150.95449">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Doctor Choo"/>
+	</node>
+	<node id="526381143" lat="-33.77549" lon="150.91705">
+		<tag k="addr:street" v="Blacktown Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Blacktown Hospital"/>
+		<tag k="phone" v="+61-2-9881-8000"/>
+	</node>
+	<node id="540650055" lat="-33.80175" lon="151.21684">
+		<tag k="addr:city" v="Sydney"/>
+		<tag k="addr:country" v="AU"/>
+		<tag k="addr:housenumber" v="150"/>
+		<tag k="addr:postcode" v="2068"/>
+		<tag k="addr:street" v="Edinburgh Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Castlecrag Private Hosptial"/>
+	</node>
+	<node id="585120400" lat="-33.41811" lon="149.5826">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Busby Medical Practice"/>
+		<tag k="source" v="survey"/>
+	</node>
+	<node id="597548005" lat="-33.75795" lon="150.71618"/>
+	<node id="598049360" lat="-32.96521" lon="151.64034">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Warners Bay Private Hospital"/>
+	</node>
+	<node id="610196243" lat="-33.80598" lon="150.98793"/>
+	<node id="618720071" lat="-33.80565" lon="150.98742"/>
+	<node id="618720095" lat="-33.80605" lon="150.98805"/>
+	<node id="621555305" lat="-34.06297" lon="150.69357"/>
+	<node id="621555306" lat="-34.06298" lon="150.69357"/>
+	<node id="621555307" lat="-34.06279" lon="150.69336"/>
+	<node id="621555309" lat="-34.06289" lon="150.69362"/>
+	<node id="621555310" lat="-34.06289" lon="150.69362"/>
+	<node id="621555312" lat="-34.06266" lon="150.69335"/>
+	<node id="621555313" lat="-34.06272" lon="150.69335"/>
+	<node id="621555314" lat="-34.0626" lon="150.69335"/>
+	<node id="621555315" lat="-34.06252" lon="150.69336"/>
+	<node id="621555316" lat="-34.06245" lon="150.69338"/>
+	<node id="621555317" lat="-34.06265" lon="150.69396"/>
+	<node id="621555318" lat="-34.06259" lon="150.69388"/>
+	<node id="621555319" lat="-34.06263" lon="150.69395"/>
+	<node id="621555320" lat="-34.06276" lon="150.69363"/>
+	<node id="621555321" lat="-34.06271" lon="150.69362"/>
+	<node id="621555322" lat="-34.06264" lon="150.69362"/>
+	<node id="621555323" lat="-34.06275" lon="150.69374"/>
+	<node id="621555324" lat="-34.06275" lon="150.69374"/>
+	<node id="621555325" lat="-34.06261" lon="150.69389"/>
+	<node id="621555326" lat="-34.0626" lon="150.69387"/>
+	<node id="621555327" lat="-34.06252" lon="150.69365"/>
+	<node id="621555328" lat="-34.06256" lon="150.69387"/>
+	<node id="621555329" lat="-34.06257" lon="150.69388"/>
+	<node id="621555330" lat="-34.06255" lon="150.69388"/>
+	<node id="621555331" lat="-34.06237" lon="150.69343"/>
+	<node id="621555332" lat="-34.06191" lon="150.69362"/>
+	<node id="621555334" lat="-34.06197" lon="150.69368"/>
+	<node id="621555335" lat="-34.06218" lon="150.69394"/>
+	<node id="621555337" lat="-34.06219" lon="150.69392"/>
+	<node id="621555338" lat="-34.06192" lon="150.69361"/>
+	<node id="621555340" lat="-34.06195" lon="150.69369"/>
+	<node id="621555341" lat="-34.06261" lon="150.69397"/>
+	<node id="621555342" lat="-34.06264" lon="150.69397"/>
+	<node id="621555343" lat="-34.0626" lon="150.69401"/>
+	<node id="621555344" lat="-34.06253" lon="150.69403"/>
+	<node id="621555345" lat="-34.06257" lon="150.69404"/>
+	<node id="621555346" lat="-34.06249" lon="150.69406"/>
+	<node id="621555347" lat="-34.06261" lon="150.69399"/>
+	<node id="621555348" lat="-34.06267" lon="150.69399"/>
+	<node id="621555349" lat="-34.06251" lon="150.6941"/>
+	<node id="621555350" lat="-34.06245" lon="150.69414"/>
+	<node id="621555351" lat="-34.06255" lon="150.69404"/>
+	<node id="621555352" lat="-34.06259" lon="150.69403"/>
+	<node id="621555353" lat="-34.06246" lon="150.69416"/>
+	<node id="623809427" lat="-33.42088" lon="151.33957">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Gosford Public Hospital"/>
+	</node>
+	<node id="627244987" lat="-33.41856" lon="151.3497">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="North Gosford Private Hospital"/>
+	</node>
+	<node id="633036138" lat="-33.40586" lon="149.57211">
+		<tag k="amenity" v="hospital"/>
+		<tag k="hospital:type" v="public"/>
+		<tag k="name" v="Bathurst Base Hospital"/>
+	</node>
+	<node id="638551781" lat="-33.82253" lon="151.19054"/>
+	<node id="638551796" lat="-33.82248" lon="151.19095"/>
+	<node id="638551829" lat="-33.8226" lon="151.1914"/>
+	<node id="650104044" lat="-33.4995" lon="150.12788"/>
+	<node id="650104046" lat="-33.49937" lon="150.12811"/>
+	<node id="650104057" lat="-33.49868" lon="150.12681"/>
+	<node id="650104058" lat="-33.49842" lon="150.12684"/>
+	<node id="650104059" lat="-33.49815" lon="150.12709"/>
+	<node id="650104062" lat="-33.49823" lon="150.12729"/>
+	<node id="650104063" lat="-33.49808" lon="150.12742"/>
+	<node id="650104065" lat="-33.49897" lon="150.12847"/>
+	<node id="650104068" lat="-33.49887" lon="150.12857"/>
+	<node id="666732407" lat="-33.40607" lon="151.35149">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Wyoming Medical And Dental"/>
+	</node>
+	<node id="666853486" lat="-34.06707" lon="151.01121">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Engadine Medical Centre"/>
+		<tag k="phone" v="+61 2 9520 9944"/>
+		<tag k="website" v="http://www.engadinemedicalcentre.com.au"/>
+	</node>
+	<node id="667281912" lat="-34.06705" lon="151.01476">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Engadine Family Medical Practice"/>
+	</node>
+	<node id="667281915" lat="-34.06676" lon="151.0144">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="St, George Surgery"/>
+	</node>
+	<node id="668463871" lat="-33.76266" lon="150.99331">
+		<tag k="addr:housenumber" v="Shop 2-3, 348"/>
+		<tag k="addr:street" v="Windsor Road"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Windsor Road Medical Centre"/>
+		<tag k="phone" v="+61-2-9686-4400"/>
+	</node>
+	<node id="668733959" lat="-34.06595" lon="151.01482">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Engadine Ambulance Station"/>
+	</node>
+	<node id="692509484" lat="-33.7447" lon="150.95288"/>
+	<node id="692509486" lat="-33.74418" lon="150.95365"/>
+	<node id="692509489" lat="-33.74531" lon="150.95512"/>
+	<node id="692509491" lat="-33.74595" lon="150.95494"/>
+	<node id="745486295" lat="-33.8077" lon="151.08779">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Medical Centre"/>
+	</node>
+	<node id="764757848" lat="-33.50047" lon="150.12647">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Bowenfels Medical Practice"/>
+		<tag k="source" v="voice"/>
+	</node>
+	<node id="807733024" lat="-33.69605" lon="151.09821"/>
+	<node id="807733029" lat="-33.69592" lon="151.09797"/>
+	<node id="807733040" lat="-33.69602" lon="151.09799"/>
+	<node id="807733049" lat="-33.69597" lon="151.09799"/>
+	<node id="807733052" lat="-33.69597" lon="151.09796"/>
+	<node id="807733057" lat="-33.69594" lon="151.09822"/>
+	<node id="818817815" lat="-33.68755" lon="151.10807">
+		<tag k="amenity" v="doctors"/>
+	</node>
+	<node id="820526027" lat="-32.82403" lon="151.46391"/>
+	<node id="820526029" lat="-32.82577" lon="151.46205"/>
+	<node id="820526030" lat="-32.82598" lon="151.46373"/>
+	<node id="820526032" lat="-32.8241" lon="151.46243"/>
+	<node id="820526034" lat="-32.82522" lon="151.4639"/>
+	<node id="820526036" lat="-32.82519" lon="151.46369"/>
+	<node id="829831682" lat="-33.86061" lon="151.03306">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Auburn Hospital"/>
+	</node>
+	<node id="832370964" lat="-33.74502" lon="150.95402">
+		<tag k="addr:housenumber" v="11"/>
+		<tag k="addr:street" v="Norbrik Drive"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Norwest Private Hosptial"/>
+		<tag k="phone" v="+61-2-8882-8555"/>
+	</node>
+	<node id="832375372" lat="-33.70094" lon="151.11176"/>
+	<node id="832375373" lat="-33.70385" lon="151.11117"/>
+	<node id="832375374" lat="-33.70417" lon="151.11329"/>
+	<node id="832375375" lat="-33.70123" lon="151.11387"/>
+	<node id="832381115" lat="-33.77376" lon="151.11802">
+		<tag k="addr:housenumber" v="3"/>
+		<tag k="addr:street" v="Technology Place"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Maquarie University Hospital"/>
+		<tag k="phone" v="+61-2-9812-3000"/>
+	</node>
+	<node id="854071102" lat="-33.81471" lon="151.1072"/>
+	<node id="854071103" lat="-33.8148" lon="151.10732"/>
+	<node id="854071106" lat="-33.81494" lon="151.10718"/>
+	<node id="854071107" lat="-33.81484" lon="151.10705"/>
+	<node id="856509958" lat="-34.33727" lon="150.90638"/>
+	<node id="856510070" lat="-34.33753" lon="150.908"/>
+	<node id="856510227" lat="-34.33708" lon="150.90824"/>
+	<node id="856510454" lat="-34.33611" lon="150.9077"/>
+	<node id="856510487" lat="-34.33609" lon="150.9077"/>
+	<node id="856510547" lat="-34.33761" lon="150.90787"/>
+	<node id="856510692" lat="-34.33703" lon="150.90806"/>
+	<node id="856510845" lat="-34.33642" lon="150.90836"/>
+	<node id="856511152" lat="-34.33607" lon="150.90768"/>
+	<node id="856511173" lat="-34.33581" lon="150.90668"/>
+	<node id="856511277" lat="-34.33592" lon="150.90733"/>
+	<node id="862649053" lat="-33.40632" lon="149.57382"/>
+	<node id="862649119" lat="-33.40746" lon="149.57214"/>
+	<node id="885722570" lat="-32.92235" lon="151.69284">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="John Hunter Hospital"/>
+	</node>
+	<node id="889605557" lat="-33.40676" lon="149.57318"/>
+	<node id="889605590" lat="-33.40484" lon="149.57239"/>
+	<node id="889605613" lat="-33.40714" lon="149.57262"/>
+	<node id="889605665" lat="-33.40602" lon="149.5707"/>
+	<node id="889605681" lat="-33.40701" lon="149.57281"/>
+	<node id="896725329" lat="-33.83758" lon="151.09121"/>
+	<node id="896725330" lat="-33.8387" lon="151.09243"/>
+	<node id="896725332" lat="-33.8391" lon="151.09182"/>
+	<node id="896725333" lat="-33.83941" lon="151.09218"/>
+	<node id="896725335" lat="-33.84003" lon="151.0914"/>
+	<node id="896725339" lat="-33.84071" lon="151.09209"/>
+	<node id="896725340" lat="-33.83953" lon="151.09389"/>
+	<node id="896725342" lat="-33.83905" lon="151.09336"/>
+	<node id="896725344" lat="-33.8383" lon="151.09446"/>
+	<node id="896725345" lat="-33.83814" lon="151.0946"/>
+	<node id="896725347" lat="-33.83781" lon="151.09456"/>
+	<node id="896725349" lat="-33.83741" lon="151.09515"/>
+	<node id="896725350" lat="-33.8369" lon="151.09602"/>
+	<node id="896725352" lat="-33.83655" lon="151.09706"/>
+	<node id="896725355" lat="-33.83627" lon="151.09784"/>
+	<node id="896725356" lat="-33.83602" lon="151.09802"/>
+	<node id="896725357" lat="-33.83597" lon="151.09872"/>
+	<node id="896725359" lat="-33.83582" lon="151.0987"/>
+	<node id="896725360" lat="-33.83582" lon="151.09857"/>
+	<node id="896725361" lat="-33.83546" lon="151.09856"/>
+	<node id="896725362" lat="-33.83498" lon="151.09834"/>
+	<node id="896725364" lat="-33.83449" lon="151.09806"/>
+	<node id="896725365" lat="-33.83452" lon="151.09739"/>
+	<node id="896725368" lat="-33.83459" lon="151.09646"/>
+	<node id="896725370" lat="-33.83483" lon="151.09538"/>
+	<node id="896725377" lat="-33.83505" lon="151.09496"/>
+	<node id="896725379" lat="-33.83584" lon="151.09392"/>
+	<node id="896725381" lat="-33.83658" lon="151.09263"/>
+	<node id="896725382" lat="-33.83729" lon="151.0916"/>
+	<node id="898102038" lat="-33.8345" lon="151.09795"/>
+	<node id="933269468" lat="-33.71759" lon="151.11463">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Neringah Hospital"/>
+	</node>
+	<node id="1030781657" lat="-33.35812" lon="149.97866">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Portland Tabulam Health Centre"/>
+		<tag k="source" v="voice"/>
+	</node>
+	<node id="1030781721" lat="-33.35379" lon="149.97341">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Portland District Hospital"/>
+		<tag k="source" v="voice"/>
+	</node>
+	<node id="1037195000" lat="-33.47936" lon="150.16025">
+		<tag k="amenity" v="doctors"/>
+		<tag k="healthcare" v="doctor"/>
+		<tag k="name" v="Lithgow Family Medical Practice"/>
+		<tag k="shop" v="medical"/>
+		<tag k="source" v="voice"/>
+	</node>
+	<node id="1042222242" lat="-33.73504" lon="151.0041">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Castle Hill Day Surgery"/>
+	</node>
+	<node id="1084662540" lat="-33.89237" lon="151.21451">
+		<tag k="amenity" v="doctors"/>
+	</node>
+	<node id="1090197017" lat="-34.68308" lon="150.8506">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Kiama Hospital &#38; Community Health Service"/>
+		<tag k="source:name" v="image"/>
+	</node>
+	<node id="1102860352" lat="-33.88462" lon="151.2078"/>
+	<node id="1102860354" lat="-33.88397" lon="151.20806"/>
+	<node id="1102860360" lat="-33.88433" lon="151.20806"/>
+	<node id="1102860367" lat="-33.884" lon="151.20809"/>
+	<node id="1102860371" lat="-33.88452" lon="151.2076"/>
+	<node id="1102860373" lat="-33.884" lon="151.20803"/>
+	<node id="1112469085" lat="-33.95515" lon="150.99872"/>
+	<node id="1112469087" lat="-33.95516" lon="150.99861"/>
+	<node id="1112469088" lat="-33.95495" lon="150.99884"/>
+	<node id="1112469089" lat="-33.95509" lon="150.9988"/>
+	<node id="1112469091" lat="-33.95508" lon="150.99839"/>
+	<node id="1112469092" lat="-33.95495" lon="150.99841"/>
+	<node id="1112469093" lat="-33.95515" lon="150.99866"/>
+	<node id="1112469096" lat="-33.95516" lon="150.99872"/>
+	<node id="1112469098" lat="-33.95514" lon="150.99848"/>
+	<node id="1112469099" lat="-33.95516" lon="150.99879"/>
+	<node id="1112469100" lat="-33.955" lon="150.99883"/>
+	<node id="1112469102" lat="-33.95512" lon="150.99843"/>
+	<node id="1112469103" lat="-33.95514" lon="150.99861"/>
+	<node id="1112469104" lat="-33.95492" lon="150.99861"/>
+	<node id="1112469105" lat="-33.9549" lon="150.99841"/>
+	<node id="1112469106" lat="-33.95504" lon="150.99839"/>
+	<node id="1112469108" lat="-33.95516" lon="150.99866"/>
+	<node id="1119546761" lat="-33.95568" lon="150.99928"/>
+	<node id="1119546786" lat="-33.95553" lon="150.99935"/>
+	<node id="1119546800" lat="-33.95567" lon="150.99931"/>
+	<node id="1119546811" lat="-33.95572" lon="150.99921"/>
+	<node id="1119546815" lat="-33.95552" lon="150.99934"/>
+	<node id="1119546840" lat="-33.95565" lon="150.99923"/>
+	<node id="1119546848" lat="-33.95573" lon="150.99927"/>
+	<node id="1119546869" lat="-33.95567" lon="150.99932"/>
+	<node id="1119546887" lat="-33.95568" lon="150.99931"/>
+	<node id="1119546908" lat="-33.95553" lon="150.99934"/>
+	<node id="1119546935" lat="-33.95551" lon="150.99926"/>
+	<node id="1119546967" lat="-33.95565" lon="150.99922"/>
+	<node id="1123096728" lat="-34.3102" lon="150.91765"/>
+	<node id="1123096811" lat="-34.30999" lon="150.91792"/>
+	<node id="1123096816" lat="-34.31025" lon="150.91788"/>
+	<node id="1123096876" lat="-34.31047" lon="150.91782"/>
+	<node id="1123096915" lat="-34.30983" lon="150.91792"/>
+	<node id="1123096940" lat="-34.31049" lon="150.918"/>
+	<node id="1123096965" lat="-34.31043" lon="150.91731"/>
+	<node id="1123097017" lat="-34.31065" lon="150.91798"/>
+	<node id="1123097061" lat="-34.31038" lon="150.9174"/>
+	<node id="1123097111" lat="-34.31057" lon="150.91743"/>
+	<node id="1123097137" lat="-34.30989" lon="150.91754"/>
+	<node id="1123097145" lat="-34.31002" lon="150.91771"/>
+	<node id="1123097185" lat="-34.31058" lon="150.91735"/>
+	<node id="1145786093" lat="-32.56641" lon="151.18672"/>
+	<node id="1145786196" lat="-32.56775" lon="151.18655"/>
+	<node id="1145786228" lat="-32.56614" lon="151.18464"/>
+	<node id="1145786263" lat="-32.5674" lon="151.18437"/>
+	<node id="1170823158" lat="-33.77501" lon="151.08164">
+		<tag k="amenity" v="doctors"/>
+	</node>
+	<node id="1185635183" lat="-33.7332" lon="151.09941"/>
+	<node id="1186813025" lat="-33.89654" lon="151.25325"/>
+	<node id="1186813026" lat="-33.8967" lon="151.25421"/>
+	<node id="1186813027" lat="-33.89797" lon="151.25292"/>
+	<node id="1186813029" lat="-33.89674" lon="151.25425"/>
+	<node id="1186813030" lat="-33.89813" lon="151.25394"/>
+	<node id="1187112551" lat="-33.73287" lon="151.10007"/>
+	<node id="1187112553" lat="-33.733" lon="151.09954"/>
+	<node id="1187112554" lat="-33.73276" lon="151.09946"/>
+	<node id="1187112555" lat="-33.73264" lon="151.09999"/>
+	<node id="1187112556" lat="-33.73297" lon="151.09954">
+		<tag k="entrance" v="yes"/>
+	</node>
+	<node id="1187112588" lat="-33.73526" lon="151.09838"/>
+	<node id="1187112590" lat="-33.73519" lon="151.09767"/>
+	<node id="1187113090" lat="-33.73292" lon="151.09874"/>
+	<node id="1187977323" lat="-33.73294" lon="151.09979">
+		<tag k="entrance" v="main"/>
+	</node>
+	<node id="1217261980" lat="-34.45109" lon="150.88104"/>
+	<node id="1217264833" lat="-34.45099" lon="150.88106"/>
+	<node id="1217265344" lat="-34.45101" lon="150.88129"/>
+	<node id="1217277913" lat="-34.45112" lon="150.88128"/>
+	<node id="1228155644" lat="-33.71428" lon="150.33044">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="The Ritz Nursing Home"/>
+	</node>
+	<node id="1294050360" lat="-34.04316" lon="151.12194">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Caringbah Medical Center"/>
+	</node>
+	<node id="1294141240" lat="-34.04483" lon="151.12315">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Caringbah Family Practice"/>
+	</node>
+	<node id="1294229279" lat="-34.03683" lon="151.10253">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Miranda Medical Center"/>
+	</node>
+	<node id="1296011744" lat="-33.76713" lon="150.90947"/>
+	<node id="1296011763" lat="-33.76766" lon="150.90981"/>
+	<node id="1296011782" lat="-33.76725" lon="150.90995"/>
+	<node id="1296011804" lat="-33.76754" lon="150.90933"/>
+	<node id="1345463400" lat="-34.40778" lon="150.87937">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Campus Health"/>
+		<tag k="website" v="http://unicentre.uow.edu.au/retail/generalfacilities/health/index.htm"/>
+	</node>
+	<node id="1380156673" lat="-33.77307" lon="151.11763">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Macquarie University Hospital"/>
+	</node>
+	<node id="1388186942" lat="-33.75709" lon="150.71239"/>
+	<node id="1388186943" lat="-33.76144" lon="150.71519"/>
+	<node id="1388186970" lat="-33.76065" lon="150.7112"/>
+	<node id="1389190990" lat="-34.42446" lon="150.88368"/>
+	<node id="1389190991" lat="-34.42447" lon="150.88399"/>
+	<node id="1389190992" lat="-34.42448" lon="150.88359"/>
+	<node id="1389190998" lat="-34.42456" lon="150.8836"/>
+	<node id="1389191000" lat="-34.42458" lon="150.88353"/>
+	<node id="1389191001" lat="-34.42458" lon="150.8837"/>
+	<node id="1389191005" lat="-34.42464" lon="150.88353"/>
+	<node id="1389191017" lat="-34.42485" lon="150.88421"/>
+	<node id="1389191024" lat="-34.42495" lon="150.88274"/>
+	<node id="1389191027" lat="-34.42496" lon="150.88392"/>
+	<node id="1389191028" lat="-34.42497" lon="150.88276"/>
+	<node id="1389191031" lat="-34.42506" lon="150.88253"/>
+	<node id="1389191033" lat="-34.42513" lon="150.88257"/>
+	<node id="1389191034" lat="-34.42519" lon="150.88388"/>
+	<node id="1389191035" lat="-34.4252" lon="150.88406"/>
+	<node id="1389191036" lat="-34.4252" lon="150.88239"/>
+	<node id="1389191037" lat="-34.42525" lon="150.88392"/>
+	<node id="1389191038" lat="-34.42534" lon="150.88325"/>
+	<node id="1389191040" lat="-34.42541" lon="150.8833"/>
+	<node id="1389191041" lat="-34.42542" lon="150.88252"/>
+	<node id="1389191042" lat="-34.42547" lon="150.88238"/>
+	<node id="1389191045" lat="-34.42557" lon="150.88254"/>
+	<node id="1389191046" lat="-34.42561" lon="150.88246"/>
+	<node id="1389191047" lat="-34.42561" lon="150.88256"/>
+	<node id="1417792632" lat="-34.03612" lon="151.07938"/>
+	<node id="1417792633" lat="-34.03622" lon="151.07996"/>
+	<node id="1417792634" lat="-34.03634" lon="151.07933"/>
+	<node id="1417792636" lat="-34.03636" lon="151.07861"/>
+	<node id="1417792637" lat="-34.03675" lon="151.07853"/>
+	<node id="1417792639" lat="-34.03691" lon="151.07982"/>
+	<node id="1425901371" lat="-33.96259" lon="151.09596">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Hustville Community Hospital"/>
+		<tag k="source:location" v="survey"/>
+		<tag k="source:name" v="local_knowledge"/>
+	</node>
+	<node id="1433346192" lat="-33.40542" lon="149.60043"/>
+	<node id="1433346199" lat="-33.40515" lon="149.60028"/>
+	<node id="1433346202" lat="-33.40516" lon="149.60042"/>
+	<node id="1433346205" lat="-33.40544" lon="149.60032"/>
+	<node id="1433346211" lat="-33.40519" lon="149.60042"/>
+	<node id="1433346215" lat="-33.40534" lon="149.60029"/>
+	<node id="1433346228" lat="-33.40518" lon="149.6005"/>
+	<node id="1433346236" lat="-33.40518" lon="149.60028"/>
+	<node id="1433346247" lat="-33.40531" lon="149.60051"/>
+	<node id="1433346250" lat="-33.40517" lon="149.60031"/>
+	<node id="1433346261" lat="-33.40532" lon="149.60045"/>
+	<node id="1433346265" lat="-33.40515" lon="149.60031"/>
+	<node id="1433346282" lat="-33.40535" lon="149.60046"/>
+	<node id="1433346287" lat="-33.40515" lon="149.60038"/>
+	<node id="1433346305" lat="-33.40536" lon="149.60043"/>
+	<node id="1433346317" lat="-33.40536" lon="149.60019"/>
+	<node id="1433346337" lat="-33.40516" lon="149.60016"/>
+	<node id="1433346339" lat="-33.40517" lon="149.60038"/>
+	<node id="1437169327" lat="-33.8194" lon="151.10604"/>
+	<node id="1437169329" lat="-33.81968" lon="151.10637"/>
+	<node id="1437169331" lat="-33.82003" lon="151.1076"/>
+	<node id="1437169344" lat="-33.8206" lon="151.10491"/>
+	<node id="1437169345" lat="-33.82061" lon="151.10749"/>
+	<node id="1437169353" lat="-33.82097" lon="151.10804"/>
+	<node id="1437169356" lat="-33.82124" lon="151.1093"/>
+	<node id="1437169371" lat="-33.8216" lon="151.10628"/>
+	<node id="1437169372" lat="-33.82162" lon="151.10927"/>
+	<node id="1437169374" lat="-33.82189" lon="151.11003"/>
+	<node id="1437169376" lat="-33.82205" lon="151.10987"/>
+	<node id="1437169378" lat="-33.8229" lon="151.10793"/>
+	<node id="1480994670" lat="-33.76588" lon="150.82961">
+		<tag k="amenity" v="hospital"/>
+	</node>
+	<node id="1539100483" lat="-33.41937" lon="151.34484"/>
+	<node id="1539100485" lat="-33.41938" lon="151.34495"/>
+	<node id="1539100486" lat="-33.41938" lon="151.34477"/>
+	<node id="1539100488" lat="-33.41939" lon="151.34484"/>
+	<node id="1539100502" lat="-33.41946" lon="151.34476"/>
+	<node id="1539100513" lat="-33.41948" lon="151.34494"/>
+	<node id="1539101046" lat="-33.42077" lon="151.34448"/>
+	<node id="1539101048" lat="-33.42079" lon="151.34462"/>
+	<node id="1539101057" lat="-33.42081" lon="151.34462"/>
+	<node id="1539101059" lat="-33.42082" lon="151.34468"/>
+	<node id="1539101061" lat="-33.42087" lon="151.34447"/>
+	<node id="1539101062" lat="-33.42088" lon="151.34443"/>
+	<node id="1539101064" lat="-33.42089" lon="151.34467"/>
+	<node id="1539101065" lat="-33.42091" lon="151.34469"/>
+	<node id="1539101075" lat="-33.42103" lon="151.34467"/>
+	<node id="1539101078" lat="-33.42103" lon="151.34469"/>
+	<node id="1539101080" lat="-33.42106" lon="151.34439"/>
+	<node id="1539101082" lat="-33.42106" lon="151.34467"/>
+	<node id="1539101084" lat="-33.42106" lon="151.34469"/>
+	<node id="1539101085" lat="-33.42107" lon="151.34449"/>
+	<node id="1539101086" lat="-33.42108" lon="151.34455"/>
+	<node id="1539101087" lat="-33.4211" lon="151.34466"/>
+	<node id="1539101091" lat="-33.42111" lon="151.34452"/>
+	<node id="1541780452" lat="-33.91688" lon="150.9282"/>
+	<node id="1541780454" lat="-33.91694" lon="150.92866"/>
+	<node id="1541780456" lat="-33.91706" lon="150.92836"/>
+	<node id="1541780458" lat="-33.91708" lon="150.92847"/>
+	<node id="1541780461" lat="-33.91712" lon="150.92816">
+		<tag k="amenity" v="parking"/>
+		<tag k="note" v="Hospital visitors only"/>
+		<tag k="operator" v="Sydney Southwest Private Hospital"/>
+		<tag k="parking" v="underground"/>
+	</node>
+	<node id="1541780465" lat="-33.91719" lon="150.92833"/>
+	<node id="1541780466" lat="-33.9172" lon="150.92844"/>
+	<node id="1541780476" lat="-33.91734" lon="150.92805"/>
+	<node id="1541780477" lat="-33.91734" lon="150.92812"/>
+	<node id="1541780478" lat="-33.91737" lon="150.92804">
+		<tag k="building" v="entrance"/>
+	</node>
+	<node id="1541780480" lat="-33.9174" lon="150.92804"/>
+	<node id="1541780482" lat="-33.91742" lon="150.92824"/>
+	<node id="1541780484" lat="-33.91747" lon="150.9281"/>
+	<node id="1541780493" lat="-33.91748" lon="150.92823"/>
+	<node id="1541780496" lat="-33.91753" lon="150.92846"/>
+	<node id="1541780498" lat="-33.91754" lon="150.92855"/>
+	<node id="1541780500" lat="-33.91762" lon="150.92844"/>
+	<node id="1541780501" lat="-33.91763" lon="150.9285"/>
+	<node id="1541780503" lat="-33.91767" lon="150.92805"/>
+	<node id="1541780509" lat="-33.91767" lon="150.92807"/>
+	<node id="1541780511" lat="-33.91772" lon="150.92805"/>
+	<node id="1541780513" lat="-33.91777" lon="150.92847"/>
+	<node id="1576249536" lat="-34.42508" lon="150.88328">
+		<tag k="amenity" v="hospital"/>
+	</node>
+	<node id="1606767742" lat="-33.41925" lon="151.34402"/>
+	<node id="1606767743" lat="-33.41926" lon="151.3441"/>
+	<node id="1606767744" lat="-33.41927" lon="151.34409"/>
+	<node id="1606767745" lat="-33.41928" lon="151.34413"/>
+	<node id="1606767757" lat="-33.41928" lon="151.34421"/>
+	<node id="1606767760" lat="-33.41929" lon="151.34413"/>
+	<node id="1606767763" lat="-33.4193" lon="151.34431"/>
+	<node id="1606767764" lat="-33.4193" lon="151.34416"/>
+	<node id="1606767765" lat="-33.4193" lon="151.34434"/>
+	<node id="1606767766" lat="-33.41931" lon="151.34447"/>
+	<node id="1606767770" lat="-33.41939" lon="151.34409"/>
+	<node id="1606767772" lat="-33.41939" lon="151.34414"/>
+	<node id="1606767773" lat="-33.4194" lon="151.34399"/>
+	<node id="1606767780" lat="-33.41941" lon="151.34409"/>
+	<node id="1606767782" lat="-33.41942" lon="151.34418"/>
+	<node id="1606767784" lat="-33.41943" lon="151.34428"/>
+	<node id="1606767788" lat="-33.41945" lon="151.34442"/>
+	<node id="1606767790" lat="-33.41945" lon="151.34445"/>
+	<node id="1606767792" lat="-33.41946" lon="151.34431"/>
+	<node id="1606767794" lat="-33.41947" lon="151.34442"/>
+	<node id="1613757715" lat="-32.94013" lon="151.75543"/>
+	<node id="1613757717" lat="-32.94015" lon="151.75565"/>
+	<node id="1613757721" lat="-32.94016" lon="151.75582"/>
+	<node id="1613757722" lat="-32.94021" lon="151.75569"/>
+	<node id="1613757723" lat="-32.94022" lon="151.75548"/>
+	<node id="1613757724" lat="-32.94024" lon="151.75608"/>
+	<node id="1613757725" lat="-32.9403" lon="151.75503"/>
+	<node id="1613757726" lat="-32.94031" lon="151.75592"/>
+	<node id="1613757727" lat="-32.94038" lon="151.75616"/>
+	<node id="1613757729" lat="-32.94045" lon="151.75599"/>
+	<node id="1613757731" lat="-32.94047" lon="151.75517"/>
+	<node id="1613757739" lat="-32.94048" lon="151.75514"/>
+	<node id="1613757741" lat="-32.94053" lon="151.75581"/>
+	<node id="1613757743" lat="-32.94066" lon="151.75548"/>
+	<node id="1613757745" lat="-32.94072" lon="151.75532"/>
+	<node id="1613757747" lat="-32.94085" lon="151.756"/>
+	<node id="1613757748" lat="-32.94085" lon="151.75579"/>
+	<node id="1613757750" lat="-32.94092" lon="151.75564"/>
+	<node id="1613757753" lat="-32.94092" lon="151.75584"/>
+	<node id="1629287263" lat="-33.94841" lon="150.95379">
+		<tag k="amenity" v="doctors"/>
+		<tag k="emergency" v="no"/>
+		<tag k="source" v="Local Knowledge"/>
+	</node>
+	<node id="1631209617" lat="-34.02957" lon="151.08136"/>
+	<node id="1631209622" lat="-34.02991" lon="151.08094"/>
+	<node id="1631209623" lat="-34.03001" lon="151.08129"/>
+	<node id="1631209624" lat="-34.03009" lon="151.08117"/>
+	<node id="1634907413" lat="-33.8033" lon="150.99796"/>
+	<node id="1634907523" lat="-33.80406" lon="150.99708"/>
+	<node id="1635067846" lat="-33.80241" lon="150.99289"/>
+	<node id="1635067848" lat="-33.80191" lon="150.99068"/>
+	<node id="1635067850" lat="-33.80262" lon="150.99401"/>
+	<node id="1635067852" lat="-33.80275" lon="150.99194"/>
+	<node id="1635067854" lat="-33.80284" lon="150.99198"/>
+	<node id="1635067856" lat="-33.80082" lon="150.9905"/>
+	<node id="1635067858" lat="-33.8023" lon="150.9931"/>
+	<node id="1635067860" lat="-33.80166" lon="150.99056"/>
+	<node id="1635067862" lat="-33.80076" lon="150.99057"/>
+	<node id="1635067864" lat="-33.80295" lon="150.99369"/>
+	<node id="1635067865" lat="-33.80218" lon="150.99255"/>
+	<node id="1635067866" lat="-33.80187" lon="150.99044"/>
+	<node id="1635067867" lat="-33.8009" lon="150.99343"/>
+	<node id="1635067868" lat="-33.80066" lon="150.99341"/>
+	<node id="1635067869" lat="-33.80226" lon="150.991"/>
+	<node id="1635067870" lat="-33.80008" lon="150.99463"/>
+	<node id="1635067872" lat="-33.80016" lon="150.99399"/>
+	<node id="1635067873" lat="-33.80173" lon="150.99372"/>
+	<node id="1635067875" lat="-33.80071" lon="150.99342"/>
+	<node id="1635067877" lat="-33.80123" lon="150.99359"/>
+	<node id="1639749195" lat="-33.80383" lon="150.991"/>
+	<node id="1641154363" lat="-34.02973" lon="151.08134"/>
+	<node id="1641154408" lat="-34.02992" lon="151.08131"/>
+	<node id="1645055115" lat="-33.80321" lon="150.98357"/>
+	<node id="1645055122" lat="-33.80359" lon="150.98197"/>
+	<node id="1645055126" lat="-33.80194" lon="150.98313"/>
+	<node id="1645055129" lat="-33.80233" lon="150.98153"/>
+	<node id="1645484806" lat="-32.66166" lon="151.72767">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Seaham Doctor&#39;s Surgery"/>
+	</node>
+	<node id="1650403577" lat="-33.33687" lon="151.43282"/>
+	<node id="1650403578" lat="-33.33689" lon="151.43296"/>
+	<node id="1650403579" lat="-33.3369" lon="151.43281"/>
+	<node id="1650403580" lat="-33.33693" lon="151.43317"/>
+	<node id="1650403581" lat="-33.33696" lon="151.43297"/>
+	<node id="1650403582" lat="-33.33698" lon="151.43239"/>
+	<node id="1650403584" lat="-33.33698" lon="151.43316"/>
+	<node id="1650403586" lat="-33.33737" lon="151.43313"/>
+	<node id="1650403587" lat="-33.33742" lon="151.43308"/>
+	<node id="1650403591" lat="-33.33749" lon="151.43269"/>
+	<node id="1650403593" lat="-33.33754" lon="151.43269"/>
+	<node id="1685335953" lat="-33.9673" lon="151.13395">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="St George Hospital"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="1689364682" lat="-33.8866" lon="151.11137"/>
+	<node id="1689364694" lat="-33.88782" lon="151.1103"/>
+	<node id="1689364696" lat="-33.88656" lon="151.11076"/>
+	<node id="1689364698" lat="-33.88661" lon="151.11005"/>
+	<node id="1689364699" lat="-33.88767" lon="151.11162"/>
+	<node id="1707723059" lat="-32.9658" lon="151.69565">
+		<tag k="amenity" v="hospital"/>
+		<tag k="designation" v="Radiology Out Patient Clinic"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="CSCAN Radiology"/>
+		<tag k="source" v="owner"/>
+	</node>
+	<node id="1709501032" lat="-32.92581" lon="151.75274">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Hamiton Ambulance Station"/>
+	</node>
+	<node id="1732566734" lat="-33.89995" lon="151.18471">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Family Doctor &#38; Dentist"/>
+		<tag k="source" v="survey"/>
+	</node>
+	<node id="1733569178" lat="-32.88331" lon="151.69495"/>
+	<node id="1733569181" lat="-32.88261" lon="151.69483"/>
+	<node id="1733569183" lat="-32.88276" lon="151.69485"/>
+	<node id="1733569185" lat="-32.88285" lon="151.69491"/>
+	<node id="1733569187" lat="-32.88281" lon="151.695"/>
+	<node id="1733569189" lat="-32.88303" lon="151.69462"/>
+	<node id="1733569191" lat="-32.88319" lon="151.69564"/>
+	<node id="1733569193" lat="-32.8825" lon="151.69505"/>
+	<node id="1733569206" lat="-32.88336" lon="151.69485"/>
+	<node id="1733569208" lat="-32.8825" lon="151.69476"/>
+	<node id="1733569210" lat="-32.88235" lon="151.69507"/>
+	<node id="1733569212" lat="-32.88275" lon="151.69535"/>
+	<node id="1733569214" lat="-32.88347" lon="151.69506"/>
+	<node id="1733569216" lat="-32.8828" lon="151.69525"/>
+	<node id="1733569218" lat="-32.88271" lon="151.69496"/>
+	<node id="1733569221" lat="-32.88258" lon="151.69488"/>
+	<node id="1733569223" lat="-32.88284" lon="151.69502"/>
+	<node id="1733569225" lat="-32.88246" lon="151.69514"/>
+	<node id="1764606592" lat="-33.89198" lon="151.11635"/>
+	<node id="1764606596" lat="-33.89159" lon="151.11637"/>
+	<node id="1764606599" lat="-33.89252" lon="151.11608"/>
+	<node id="1764606601" lat="-33.89162" lon="151.11702"/>
+	<node id="1764606624" lat="-33.89197" lon="151.11613"/>
+	<node id="1764606626" lat="-33.89254" lon="151.11696"/>
+	<node id="1800208336" lat="-33.88958" lon="151.17854"/>
+	<node id="1820240947" lat="-33.89152" lon="151.18138"/>
+	<node id="1820241091" lat="-33.89154" lon="151.18194"/>
+	<node id="1820241104" lat="-33.89155" lon="151.18163"/>
+	<node id="1820241191" lat="-33.89145" lon="151.18108"/>
+	<node id="1820241227" lat="-33.89149" lon="151.18123"/>
+	<node id="1832199249" lat="-33.88788" lon="151.18074"/>
+	<node id="1832199251" lat="-33.8883" lon="151.18115"/>
+	<node id="1832199253" lat="-33.88925" lon="151.17841"/>
+	<node id="1832330434" lat="-33.89099" lon="151.1794"/>
+	<node id="1832330435" lat="-33.891" lon="151.17917"/>
+	<node id="1832330437" lat="-33.89101" lon="151.17953"/>
+	<node id="1832330442" lat="-33.89106" lon="151.17976"/>
+	<node id="1832330446" lat="-33.89122" lon="151.1803"/>
+	<node id="1832330452" lat="-33.89133" lon="151.18064">
+		<tag k="highway" v="traffic_signals"/>
+	</node>
+	<node id="1832330456" lat="-33.89146" lon="151.18271">
+		<tag k="highway" v="traffic_signals"/>
+	</node>
+	<node id="1832330457" lat="-33.89155" lon="151.18178"/>
+	<node id="1833885954" lat="-34.00399" lon="151.06192">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Como Medical Practice"/>
+		<tag k="source_ref:name" v="http://img855.imageshack.us/img855/8814/gopr1026.jpg"/>
+	</node>
+	<node id="1834861598" lat="-33.96562" lon="151.13397"/>
+	<node id="1834861603" lat="-33.96639" lon="151.13459"/>
+	<node id="1834861604" lat="-33.9664" lon="151.13469"/>
+	<node id="1834861608" lat="-33.96674" lon="151.13204"/>
+	<node id="1834861629" lat="-33.96864" lon="151.1361"/>
+	<node id="1834861632" lat="-33.96893" lon="151.13594"/>
+	<node id="1834861634" lat="-33.96934" lon="151.13554"/>
+	<node id="1834861638" lat="-33.96977" lon="151.13491"/>
+	<node id="1834901326" lat="-33.75719" lon="150.71222"/>
+	<node id="1834901327" lat="-33.76148" lon="150.7151"/>
+	<node id="1834901328" lat="-33.76046" lon="150.71113"/>
+	<node id="1834901329" lat="-33.75806" lon="150.71629"/>
+	<node id="1835527889" lat="-33.91903" lon="151.24077"/>
+	<node id="1835527893" lat="-33.91893" lon="151.24079"/>
+	<node id="1835528456" lat="-33.91718" lon="151.24118"/>
+	<node id="1835528457" lat="-33.9179" lon="151.24101"/>
+	<node id="1835982989" lat="-33.88994" lon="151.17869"/>
+	<node id="1836063438" lat="-33.88827" lon="151.17968"/>
+	<node id="1836063443" lat="-33.88879" lon="151.1799"/>
+	<node id="1836233181" lat="-33.91924" lon="151.23748"/>
+	<node id="1837532529" lat="-32.93175" lon="151.78283"/>
+	<node id="1837532530" lat="-32.93184" lon="151.78052"/>
+	<node id="1837532531" lat="-32.93141" lon="151.78294"/>
+	<node id="1837532532" lat="-32.93071" lon="151.781"/>
+	<node id="1837532533" lat="-32.93223" lon="151.78186"/>
+	<node id="1837532534" lat="-32.93232" lon="151.78245"/>
+	<node id="1837532535" lat="-32.93066" lon="151.78313"/>
+	<node id="1837532536" lat="-32.9302" lon="151.78117"/>
+	<node id="1837532537" lat="-32.9319" lon="151.78079"/>
+	<node id="1837898362" lat="-33.91818" lon="151.24095"/>
+	<node id="1839625067" lat="-33.91978" lon="151.23958"/>
+	<node id="1839625069" lat="-33.91977" lon="151.23953"/>
+	<node id="1839625071" lat="-33.9184" lon="151.23768"/>
+	<node id="1839625073" lat="-33.91946" lon="151.23743"/>
+	<node id="1839625074" lat="-33.91981" lon="151.24062"/>
+	<node id="1839625076" lat="-33.91851" lon="151.24088"/>
+	<node id="1839625084" lat="-33.91968" lon="151.23963"/>
+	<node id="1840695757" lat="-33.89153" lon="151.18208"/>
+	<node id="1841534309" lat="-33.89102" lon="151.17912"/>
+	<node id="1858140826" lat="-33.73631" lon="151.10048">
+		<tag k="amenity" v="clinic"/>
+	</node>
+	<node id="1858159003" lat="-33.73352" lon="151.09968">
+		<tag k="entrance" v="main"/>
+	</node>
+	<node id="1861520573" lat="-33.89938" lon="151.15589"/>
+	<node id="1861520574" lat="-33.89952" lon="151.15553"/>
+	<node id="1861520575" lat="-33.89936" lon="151.15555"/>
+	<node id="1861520576" lat="-33.89953" lon="151.15582"/>
+	<node id="1862650227" lat="-33.89678" lon="151.19993">
+		<tag k="amenity" v="doctors"/>
+	</node>
+	<node id="1863962942" lat="-33.82501" lon="151.18799"/>
+	<node id="1863962944" lat="-33.82511" lon="151.18867"/>
+	<node id="1863962948" lat="-33.82528" lon="151.18804"/>
+	<node id="1863962952" lat="-33.82537" lon="151.18861"/>
+	<node id="1865389951" lat="-33.8904" lon="151.18237"/>
+	<node id="1865396312" lat="-33.88994" lon="151.18443"/>
+	<node id="1865396313" lat="-33.88935" lon="151.18413"/>
+	<node id="1865396314" lat="-33.88936" lon="151.18422"/>
+	<node id="1865396315" lat="-33.88842" lon="151.18394"/>
+	<node id="1865396317" lat="-33.88871" lon="151.1816"/>
+	<node id="1865396319" lat="-33.88763" lon="151.1831"/>
+	<node id="1865396320" lat="-33.88999" lon="151.18427"/>
+	<node id="1865569057" lat="-34.07524" lon="150.80772"/>
+	<node id="1865569058" lat="-34.07804" lon="150.80362"/>
+	<node id="1865569059" lat="-34.07604" lon="150.80492"/>
+	<node id="1865569060" lat="-34.07809" lon="150.8084"/>
+	<node id="1865569061" lat="-34.0775" lon="150.80397"/>
+	<node id="1865569062" lat="-34.07879" lon="150.80376"/>
+	<node id="1865569063" lat="-34.07854" lon="150.80725"/>
+	<node id="1865569064" lat="-34.07644" lon="150.80484"/>
+	<node id="1865569065" lat="-34.07901" lon="150.80486"/>
+	<node id="1865569067" lat="-34.0785" lon="150.80354"/>
+	<node id="1865569068" lat="-34.07686" lon="150.80817"/>
+	<node id="1865569070" lat="-34.07896" lon="150.80414"/>
+	<node id="1865569072" lat="-34.07882" lon="150.80597"/>
+	<node id="1865569074" lat="-34.07887" lon="150.80798"/>
+	<node id="1865569075" lat="-34.07698" lon="150.8044"/>
+	<node id="1865569077" lat="-34.07896" lon="150.80763"/>
+	<node id="1869430151" lat="-33.91691" lon="151.23927"/>
+	<node id="1869430152" lat="-33.917" lon="151.23987"/>
+	<node id="1872013607" lat="-33.73192" lon="151.09892"/>
+	<node id="1894451668" lat="-34.49433" lon="150.79376">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Dapto Medical Centre"/>
+	</node>
+	<node id="1894451675" lat="-34.49417" lon="150.79302">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Dapto Family Medical Centre"/>
+	</node>
+	<node id="1915033987" lat="-33.80623" lon="150.9883"/>
+	<node id="1928146619" lat="-33.91734" lon="150.92835">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Sydney Southwest Private Hospital"/>
+	</node>
+	<node id="1934662945" lat="-34.07552" lon="150.80478"/>
+	<node id="1934662948" lat="-34.07593" lon="150.8049"/>
+	<node id="1934662951" lat="-34.07528" lon="150.80464"/>
+	<node id="1934662954" lat="-34.07575" lon="150.80524"/>
+	<node id="1934662966" lat="-34.0751" lon="150.8049"/>
+	<node id="1934662967" lat="-34.07557" lon="150.80519"/>
+	<node id="1934662968" lat="-34.07538" lon="150.80509"/>
+	<node id="1934662970" lat="-34.07594" lon="150.80527"/>
+	<node id="1934662972" lat="-34.07534" lon="150.80464"/>
+	<node id="1934662974" lat="-34.07573" lon="150.80486"/>
+	<node id="1934662976" lat="-34.07522" lon="150.80499"/>
+	<node id="1941072355" lat="-33.91723" lon="151.23154">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="University Health Service"/>
+	</node>
+	<node id="1948735873" lat="-33.82677" lon="151.18283"/>
+	<node id="1948735878" lat="-33.82714" lon="151.18545"/>
+	<node id="1948735882" lat="-33.82758" lon="151.18263"/>
+	<node id="1948735886" lat="-33.82804" lon="151.18303"/>
+	<node id="1948735889" lat="-33.82828" lon="151.18508"/>
+	<node id="1966223071" lat="-33.26016" lon="151.48206"/>
+	<node id="1966223097" lat="-33.26163" lon="151.4829"/>
+	<node id="1966223105" lat="-33.26307" lon="151.48018"/>
+	<node id="2013442165" lat="-32.9232" lon="151.69468">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Royal Newcastle Centre"/>
+	</node>
+	<node id="2021406113" lat="-32.72585" lon="151.54553">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Maitland Hospital"/>
+	</node>
+	<node id="2049435794" lat="-34.74726" lon="149.71338">
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Goulburn Base Hospital"/>
+	</node>
+	<node id="2052305587" lat="-33.70346" lon="151.10002">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Hunter Street Medical Practice"/>
+	</node>
+	<node id="2057129289" lat="-33.77765" lon="150.89522">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Dr Bong"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="2057129290" lat="-33.778" lon="150.89452">
+		<tag k="amenity" v="doctors"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="2059351557" lat="-33.88899" lon="151.23269">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Woollahra General Practice"/>
+	</node>
+	<node id="2063993517" lat="-33.76178" lon="150.89995">
+		<tag k="amenity" v="doctors"/>
+		<tag k="healthcare" v="alternative"/>
+		<tag k="healthcare:speciality" v="chiropractic"/>
+		<tag k="source" v="local knowledge"/>
+	</node>
+	<node id="2075767202" lat="-33.76089" lon="151.12938">
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="West Pymble Medical Centre"/>
+	</node>
+	<node id="2138667333" lat="-33.7859" lon="150.95055">
+		<tag k="addr:city" v="Toongabbie"/>
+		<tag k="addr:housenumber" v="27-30"/>
+		<tag k="addr:postcode" v="2246"/>
+		<tag k="addr:street" v="Portico Parade"/>
+		<tag k="addr:unit" v="3"/>
+		<tag k="amenity" v="clinic"/>
+		<tag k="name" v="Bridgeview Medical Practice"/>
+		<tag k="phone" v="(02) 9631 6400"/>
+		<tag k="source" v="local_knowledge"/>
+	</node>
+	<node id="2138843440" lat="-33.89031" lon="151.17884"/>
+	<node id="2141091420" lat="-33.95278" lon="151.03232">
+		<tag k="addr:street" v="Padstow Parade"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Padstow Parade Clinic"/>
+		<tag k="opening_hours" v="Su-Sa"/>
+		<tag k="phone" v="+61 2 97721788"/>
+		<tag k="source" v="survey"/>
+	</node>
+	<node id="2144987224" lat="-33.89144" lon="151.18103"/>
+	<node id="2144990653" lat="-33.89152" lon="151.18141"/>
+	<node id="2144990654" lat="-33.89112" lon="151.1826"/>
+	<node id="2144990656" lat="-33.89108" lon="151.17985"/>
+	<node id="2160617907" lat="-33.594" lon="150.70181">
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Saint John Of God Hospital"/>
+	</node>
+	<node id="2170756421" lat="-33.88821" lon="151.17965"/>
+	<node id="2170756423" lat="-33.88882" lon="151.17991"/>
+	<node id="2179709103" lat="-33.80108" lon="151.12005"/>
+	<node id="2179709135" lat="-33.80112" lon="151.13007"/>
+	<node id="2179709273" lat="-33.80521" lon="151.12584"/>
+	<node id="2179709387" lat="-33.79692" lon="151.12439"/>
+	<node id="2180966232" lat="-33.82245" lon="151.19337"/>
+	<node id="2180966235" lat="-33.82272" lon="151.19183"/>
+	<node id="2180966236" lat="-33.82297" lon="151.18993"/>
+	<node id="2180966237" lat="-33.82301" lon="151.19349"/>
+	<node id="2180966246" lat="-33.82155" lon="151.18875"/>
+	<node id="2180966247" lat="-33.81943" lon="151.19289"/>
+	<node id="2180966249" lat="-33.81944" lon="151.19278"/>
+	<node id="2180966259" lat="-33.82345" lon="151.19227"/>
+	<node id="2189277102" lat="-33.69021" lon="150.57096"/>
+	<node id="2189277106" lat="-33.69027" lon="150.57122"/>
+	<node id="2189277108" lat="-33.69033" lon="150.57117"/>
+	<node id="2189277111" lat="-33.69035" lon="150.57127"/>
+	<node id="2189277113" lat="-33.69037" lon="150.57083"/>
+	<node id="2189277115" lat="-33.69037" lon="150.5709"/>
+	<node id="2189277116" lat="-33.69038" lon="150.57125"/>
+	<node id="2189277117" lat="-33.69038" lon="150.57141"/>
+	<node id="2189277118" lat="-33.69039" lon="150.57093"/>
+	<node id="2189277119" lat="-33.6904" lon="150.57088"/>
+	<node id="2189277120" lat="-33.69042" lon="150.57139"/>
+	<node id="2189277122" lat="-33.69045" lon="150.57089"/>
+	<node id="2189277124" lat="-33.69048" lon="150.57094"/>
+	<node id="2189277127" lat="-33.69049" lon="150.57093"/>
+	<node id="2189277129" lat="-33.69049" lon="150.57094"/>
+	<node id="2189277138" lat="-33.69054" lon="150.57097"/>
+	<node id="2189277141" lat="-33.69055" lon="150.57089"/>
+	<node id="2189277143" lat="-33.69057" lon="150.57101"/>
+	<node id="2189277146" lat="-33.69057" lon="150.57094"/>
+	<node id="2189277149" lat="-33.69059" lon="150.57099"/>
+	<node id="2189277151" lat="-33.6906" lon="150.57132"/>
+	<node id="2189277153" lat="-33.6906" lon="150.57126"/>
+	<node id="2189277156" lat="-33.69061" lon="150.57164"/>
+	<node id="2189277158" lat="-33.69062" lon="150.57103"/>
+	<node id="2189277160" lat="-33.69063" lon="150.5713"/>
+	<node id="2189277162" lat="-33.69068" lon="150.57098"/>
+	<node id="2189277165" lat="-33.69068" lon="150.5715"/>
+	<node id="2189277167" lat="-33.6907" lon="150.57149"/>
+	<node id="2189277168" lat="-33.69071" lon="150.57155"/>
+	<node id="2189277169" lat="-33.69076" lon="150.57112"/>
+	<node id="2195224987" lat="-33.76361" lon="150.77504">
+		<tag k="addr:city" v="St Marys"/>
+		<tag k="addr:housenumber" v="63"/>
+		<tag k="addr:street" v="Phillip Street"/>
+		<tag k="amenity" v="clinic"/>
+		<tag k="name" v="St Marys Medical Centre"/>
+		<tag k="phone" v="96234288"/>
+		<tag k="source" v="survey"/>
+	</node>
+	<node id="2228546703" lat="-34.31431" lon="150.92258"/>
+	<node id="2228546719" lat="-34.31451" lon="150.92237"/>
+	<node id="2228546721" lat="-34.31434" lon="150.92264"/>
+	<node id="2228546724" lat="-34.31456" lon="150.92244"/>
+	<node id="2228546730" lat="-34.3143" lon="150.92256"/>
+	<node id="2260917900" lat="-33.80703" lon="150.96991">
+		<tag k="amenity" v="clinic"/>
+		<tag k="fixme" v="it&#39;s not a clinic it&#39;s a medical imaging facility. needs tetagging"/>
+		<tag k="name" v="PRP Diagnostic Imaging"/>
+	</node>
+	<node id="2294327101" lat="-33.8044" lon="150.98586"/>
+	<node id="2295341291" lat="-33.79866" lon="150.99668"/>
+	<node id="2295341293" lat="-33.79874" lon="150.99672"/>
+	<node id="2295341311" lat="-33.79887" lon="150.99673"/>
+	<node id="2295341337" lat="-33.79923" lon="150.99665"/>
+	<node id="2295341364" lat="-33.7997" lon="150.99644"/>
+	<node id="2295341369" lat="-33.79999" lon="150.99636"/>
+	<node id="2295341371" lat="-33.8001" lon="150.99516"/>
+	<node id="2295341372" lat="-33.80011" lon="150.99489"/>
+	<node id="2295341376" lat="-33.80015" lon="150.99575"/>
+	<node id="2295341377" lat="-33.80018" lon="150.99571"/>
+	<node id="2295341378" lat="-33.80025" lon="150.99567"/>
+	<node id="2295341379" lat="-33.80028" lon="150.99618"/>
+	<node id="2295341380" lat="-33.80036" lon="150.99565"/>
+	<node id="2295341381" lat="-33.80048" lon="150.99565"/>
+	<node id="2295341382" lat="-33.80057" lon="150.99606"/>
+	<node id="2295341383" lat="-33.80058" lon="150.99564"/>
+	<node id="2295341384" lat="-33.80072" lon="150.99566"/>
+	<node id="2295341385" lat="-33.80085" lon="150.9957"/>
+	<node id="2295341386" lat="-33.80102" lon="150.99612"/>
+	<node id="2295341387" lat="-33.80115" lon="150.99582"/>
+	<node id="2295341388" lat="-33.80135" lon="150.99624"/>
+	<node id="2295341389" lat="-33.8014" lon="150.99595"/>
+	<node id="2295341390" lat="-33.80175" lon="150.99646"/>
+	<node id="2295341391" lat="-33.80177" lon="150.99614"/>
+	<node id="2295341392" lat="-33.80189" lon="150.99617"/>
+	<node id="2295341393" lat="-33.80197" lon="150.9962"/>
+	<node id="2295341394" lat="-33.80205" lon="150.99671"/>
+	<node id="2295341395" lat="-33.80213" lon="150.99627"/>
+	<node id="2295341396" lat="-33.80223" lon="150.99632"/>
+	<node id="2295341397" lat="-33.8023" lon="150.99697"/>
+	<node id="2295341398" lat="-33.80231" lon="150.99638"/>
+	<node id="2295341399" lat="-33.8024" lon="150.99642"/>
+	<node id="2295341400" lat="-33.80249" lon="150.99647"/>
+	<node id="2295341401" lat="-33.80258" lon="150.99654"/>
+	<node id="2295341402" lat="-33.80266" lon="150.9966"/>
+	<node id="2295341403" lat="-33.80268" lon="150.99756"/>
+	<node id="2295341404" lat="-33.80273" lon="150.9967"/>
+	<node id="2295341405" lat="-33.8028" lon="150.99681"/>
+	<node id="2295341406" lat="-33.80283" lon="150.9979"/>
+	<node id="2295341407" lat="-33.80286" lon="150.99692"/>
+	<node id="2295341408" lat="-33.80299" lon="150.99729"/>
+	<node id="2295341409" lat="-33.80305" lon="150.99839"/>
+	<node id="2295341410" lat="-33.80319" lon="150.99772"/>
+	<node id="2295341411" lat="-33.80321" lon="150.99873"/>
+	<node id="2295341412" lat="-33.80326" lon="150.99786"/>
+	<node id="2295341414" lat="-33.80332" lon="150.99805"/>
+	<node id="2295341415" lat="-33.80334" lon="150.99812"/>
+	<node id="2295341416" lat="-33.8034" lon="150.9982"/>
+	<node id="2295341417" lat="-33.80345" lon="150.99828"/>
+	<node id="2295341418" lat="-33.80349" lon="150.99835"/>
+	<node id="2295341420" lat="-33.80357" lon="150.99846"/>
+	<node id="2295341422" lat="-33.80361" lon="150.99934"/>
+	<node id="2295341423" lat="-33.80363" lon="150.99856"/>
+	<node id="2295341425" lat="-33.8037" lon="150.99867"/>
+	<node id="2295341427" lat="-33.80376" lon="150.99942"/>
+	<node id="2295341428" lat="-33.80379" lon="150.99878"/>
+	<node id="2295341429" lat="-33.80388" lon="150.99887"/>
+	<node id="2295341431" lat="-33.80394" lon="150.99893"/>
+	<node id="2295341432" lat="-33.80399" lon="150.999"/>
+	<node id="2295362419" lat="-33.80406" lon="150.99686"/>
+	<node id="2295362421" lat="-33.80409" lon="150.99804"/>
+	<way id="4699988">
+		<nd ref="29893546"/>
+		<nd ref="1187112590"/>
+		<nd ref="1187112588"/>
+		<nd ref="29893547"/>
+		<nd ref="29893548"/>
+		<nd ref="29893549"/>
+		<nd ref="29893550"/>
+		<nd ref="54893783"/>
+		<nd ref="54893787"/>
+		<nd ref="54893790"/>
+		<nd ref="29893552"/>
+		<nd ref="29893554"/>
+		<nd ref="1872013607"/>
+		<nd ref="30235380"/>
+		<nd ref="30235379"/>
+		<nd ref="30235376"/>
+		<nd ref="30235375"/>
+		<nd ref="29893546"/>
+		<tag k="addr:housenumber" v="185"/>
+		<tag k="addr:street" v="Fox Valley Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Sydney Adventist Hospital"/>
+		<tag k="phone" v="+61-2-9487-9111"/>
+	</way>
+	<way id="14458565">
+		<nd ref="2295341427"/>
+		<nd ref="141841214"/>
+		<nd ref="141841225"/>
+		<nd ref="141841226"/>
+		<nd ref="141841227"/>
+		<nd ref="141841229"/>
+		<nd ref="141841230"/>
+		<nd ref="141838851"/>
+		<nd ref="141838850"/>
+		<nd ref="141841231"/>
+		<nd ref="141841232"/>
+		<nd ref="2295341291"/>
+	</way>
+	<way id="16749723">
+		<nd ref="173154246"/>
+		<nd ref="173154247"/>
+		<nd ref="173154249"/>
+		<nd ref="173154250"/>
+		<nd ref="173154251"/>
+		<nd ref="173154252"/>
+		<nd ref="173154253"/>
+		<nd ref="173154254"/>
+		<nd ref="173154255"/>
+		<nd ref="173154257"/>
+		<nd ref="173154258"/>
+		<nd ref="173154259"/>
+		<nd ref="173154260"/>
+		<nd ref="173154262"/>
+		<nd ref="173154246"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Sydney Hospital"/>
+		<tag k="odbl" v="clean"/>
+	</way>
+	<way id="22881992">
+		<nd ref="26382289"/>
+		<nd ref="26382293"/>
+		<nd ref="26382298"/>
+		<nd ref="26382302"/>
+		<nd ref="26382360"/>
+		<nd ref="246009567"/>
+		<nd ref="246009568"/>
+		<nd ref="246009569"/>
+		<nd ref="26382289"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="created_by" v="Potlatch 0.7"/>
+		<tag k="name" v="Mona Vale Hospital"/>
+	</way>
+	<way id="22888428">
+		<nd ref="246201665"/>
+		<nd ref="246201666"/>
+		<nd ref="246201667"/>
+		<nd ref="246201668"/>
+		<nd ref="246201665"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="created_by" v="Potlatch 0.9a"/>
+		<tag k="layer" v="-1"/>
+		<tag k="name" v="Canterbury Hospital"/>
+	</way>
+	<way id="22900265">
+		<nd ref="246531250"/>
+		<nd ref="246531251"/>
+		<nd ref="246531252"/>
+		<nd ref="246531253"/>
+		<nd ref="246531254"/>
+		<nd ref="246531255"/>
+		<nd ref="246531250"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="The Sydney Private Hospital"/>
+	</way>
+	<way id="22952449">
+		<nd ref="247298297"/>
+		<nd ref="247298298"/>
+		<nd ref="247298299"/>
+		<nd ref="247298300"/>
+		<nd ref="247298301"/>
+		<nd ref="247298302"/>
+		<nd ref="247298303"/>
+		<nd ref="247298304"/>
+		<nd ref="247298305"/>
+		<nd ref="247298306"/>
+		<nd ref="247298297"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Manly Hospital"/>
+	</way>
+	<way id="23242151">
+		<nd ref="251478960"/>
+		<nd ref="251478961"/>
+		<nd ref="251478962"/>
+		<nd ref="251478963"/>
+		<nd ref="251478964"/>
+		<nd ref="251478960"/>
+		<tag k="addr:street" v="Denistone Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Ryde Hospital"/>
+	</way>
+	<way id="23646529">
+		<nd ref="256175465"/>
+		<nd ref="256175466"/>
+		<nd ref="1858159003"/>
+		<nd ref="1185635183"/>
+		<nd ref="256175467"/>
+		<nd ref="256175468"/>
+		<nd ref="256175469"/>
+		<nd ref="1187113090"/>
+		<nd ref="256175470"/>
+		<nd ref="256175471"/>
+		<nd ref="256175472"/>
+		<nd ref="256175473"/>
+		<nd ref="256175465"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Sydney Adventist Hospital"/>
+		<tag k="source" v="Bing, survey"/>
+	</way>
+	<way id="23646818">
+		<nd ref="256184439"/>
+		<nd ref="256184440"/>
+		<nd ref="256184441"/>
+		<nd ref="256184442"/>
+		<nd ref="256184443"/>
+		<nd ref="256184444"/>
+		<nd ref="256184439"/>
+		<tag k="addr:street" v="Westbourne Street"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="North Shore Private Hospital"/>
+		<tag k="phone" v="+61-2-8425-3000"/>
+	</way>
+	<way id="26353725">
+		<nd ref="288740037"/>
+		<nd ref="1650403582"/>
+		<nd ref="288740038"/>
+		<nd ref="288740039"/>
+		<nd ref="288740040"/>
+		<nd ref="288740041"/>
+		<nd ref="1650403591"/>
+		<nd ref="1650403593"/>
+		<nd ref="288740042"/>
+		<nd ref="288740043"/>
+		<nd ref="1650403587"/>
+		<nd ref="1650403586"/>
+		<nd ref="288740044"/>
+		<nd ref="288740045"/>
+		<nd ref="288740046"/>
+		<nd ref="288740047"/>
+		<nd ref="288740048"/>
+		<nd ref="288740049"/>
+		<nd ref="288740050"/>
+		<nd ref="1650403580"/>
+		<nd ref="1650403584"/>
+		<nd ref="1650403581"/>
+		<nd ref="1650403578"/>
+		<nd ref="1650403577"/>
+		<nd ref="1650403579"/>
+		<nd ref="288740037"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Berkely Vale Private Hospital"/>
+	</way>
+	<way id="28397408">
+		<nd ref="1388186943"/>
+		<nd ref="1834901329"/>
+		<nd ref="597548005"/>
+		<nd ref="1388186942"/>
+		<nd ref="1834901326"/>
+		<nd ref="1834901328"/>
+		<nd ref="1388186970"/>
+		<nd ref="1834901327"/>
+		<nd ref="1388186943"/>
+		<tag k="amenity" v="hospital"/>
+	</way>
+	<way id="32120643">
+		<nd ref="360492741"/>
+		<nd ref="621555338"/>
+		<nd ref="621555332"/>
+		<nd ref="621555340"/>
+		<nd ref="621555334"/>
+		<nd ref="360492742"/>
+		<nd ref="360492743"/>
+		<nd ref="621555337"/>
+		<nd ref="621555335"/>
+		<nd ref="360492744"/>
+		<nd ref="621555353"/>
+		<nd ref="621555350"/>
+		<nd ref="621555349"/>
+		<nd ref="621555346"/>
+		<nd ref="621555344"/>
+		<nd ref="621555351"/>
+		<nd ref="621555345"/>
+		<nd ref="621555352"/>
+		<nd ref="621555343"/>
+		<nd ref="621555347"/>
+		<nd ref="621555341"/>
+		<nd ref="621555319"/>
+		<nd ref="621555342"/>
+		<nd ref="621555317"/>
+		<nd ref="621555348"/>
+		<nd ref="360492745"/>
+		<nd ref="621555306"/>
+		<nd ref="621555305"/>
+		<nd ref="360492746"/>
+		<nd ref="621555309"/>
+		<nd ref="621555310"/>
+		<nd ref="621555324"/>
+		<nd ref="621555323"/>
+		<nd ref="621555326"/>
+		<nd ref="621555325"/>
+		<nd ref="360492747"/>
+		<nd ref="621555318"/>
+		<nd ref="621555329"/>
+		<nd ref="621555328"/>
+		<nd ref="621555330"/>
+		<nd ref="360492748"/>
+		<nd ref="621555327"/>
+		<nd ref="360492749"/>
+		<nd ref="621555322"/>
+		<nd ref="621555321"/>
+		<nd ref="621555320"/>
+		<nd ref="360492751"/>
+		<nd ref="360492752"/>
+		<nd ref="621555307"/>
+		<nd ref="621555313"/>
+		<nd ref="621555312"/>
+		<nd ref="621555314"/>
+		<nd ref="621555315"/>
+		<nd ref="621555316"/>
+		<nd ref="360492753"/>
+		<nd ref="621555331"/>
+		<nd ref="360492754"/>
+		<nd ref="360492755"/>
+		<nd ref="360492741"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="fax" v="+61-2-46546240"/>
+		<tag k="name" v="Camden District Hospital"/>
+		<tag k="phone" v="+61-2-46343000"/>
+		<tag k="source" v="yahoo"/>
+		<tag k="website" v="http://www.swslhd.nsw.gov.au/CCQ/"/>
+	</way>
+	<way id="38507406">
+		<nd ref="455579354"/>
+		<nd ref="455579359"/>
+		<nd ref="455579355"/>
+		<nd ref="455579356"/>
+		<nd ref="455579357"/>
+		<nd ref="455579358"/>
+		<nd ref="455579354"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="The Mater Hospital"/>
+	</way>
+	<way id="39577985">
+		<nd ref="474379753"/>
+		<nd ref="474379754"/>
+		<nd ref="474379755"/>
+		<nd ref="474379756"/>
+		<nd ref="474379753"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Toukley Medical Centre"/>
+	</way>
+	<way id="39705236">
+		<nd ref="476077800"/>
+		<nd ref="1966223071"/>
+		<nd ref="476077804"/>
+		<nd ref="476077806"/>
+		<nd ref="476077808"/>
+		<nd ref="476077812"/>
+		<nd ref="476077813"/>
+		<nd ref="476077817"/>
+		<nd ref="476077820"/>
+		<nd ref="1966223097"/>
+		<nd ref="476077821"/>
+		<nd ref="476077800"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Wyong Hospital"/>
+	</way>
+	<way id="39705242">
+		<nd ref="476077812"/>
+		<nd ref="476077832"/>
+		<nd ref="1966223105"/>
+		<nd ref="476077817"/>
+		<nd ref="476077813"/>
+		<nd ref="476077812"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="name" v="Kanwal Medical Centre"/>
+	</way>
+	<way id="39809761">
+		<nd ref="477193235"/>
+		<nd ref="477193236"/>
+		<nd ref="477193237"/>
+		<nd ref="477193238"/>
+		<nd ref="477193239"/>
+		<nd ref="477193240"/>
+		<nd ref="477193241"/>
+		<nd ref="477193242"/>
+		<nd ref="477193243"/>
+		<nd ref="477193244"/>
+		<nd ref="477193245"/>
+		<nd ref="477193246"/>
+		<nd ref="477193247"/>
+		<nd ref="477193235"/>
+		<tag k="amenity" v="hospital"/>
+	</way>
+	<way id="40994062">
+		<nd ref="499618179"/>
+		<nd ref="499618180"/>
+		<nd ref="499618176"/>
+		<nd ref="1834861629"/>
+		<nd ref="1834861632"/>
+		<nd ref="1834861634"/>
+		<nd ref="1834861638"/>
+		<nd ref="1834861608"/>
+		<nd ref="1834861598"/>
+		<nd ref="1834861603"/>
+		<nd ref="1834861604"/>
+		<nd ref="202597378"/>
+		<nd ref="499618179"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Saint George Private Hospital"/>
+		<tag k="wheelchair" v="yes"/>
+	</way>
+	<way id="50989622">
+		<nd ref="650104057"/>
+		<nd ref="650104044"/>
+		<nd ref="650104046"/>
+		<nd ref="650104065"/>
+		<nd ref="650104068"/>
+		<nd ref="650104063"/>
+		<nd ref="650104062"/>
+		<nd ref="650104059"/>
+		<nd ref="650104058"/>
+		<nd ref="650104057"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Lithgow Hospital"/>
+		<tag k="source" v="survey; local_knowledge"/>
+	</way>
+	<way id="55055416">
+		<nd ref="692509484"/>
+		<nd ref="692509486"/>
+		<nd ref="692509489"/>
+		<nd ref="692509491"/>
+		<nd ref="692509484"/>
+		<tag k="amenity" v="hospital"/>
+	</way>
+	<way id="66832843">
+		<nd ref="807733029"/>
+		<nd ref="807733052"/>
+		<nd ref="807733049"/>
+		<nd ref="807733040"/>
+		<nd ref="807733024"/>
+		<nd ref="807733057"/>
+		<nd ref="807733029"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Summers Avenue Medical Centre"/>
+	</way>
+	<way id="68023704">
+		<nd ref="820526032"/>
+		<nd ref="820526027"/>
+		<nd ref="820526036"/>
+		<nd ref="820526034"/>
+		<nd ref="820526030"/>
+		<nd ref="820526029"/>
+		<nd ref="820526032"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="area" v="yes"/>
+		<tag k="name" v="Kurri Kurri District Hospital"/>
+	</way>
+	<way id="69548890">
+		<nd ref="832375372"/>
+		<nd ref="832375373"/>
+		<nd ref="832375374"/>
+		<nd ref="832375375"/>
+		<nd ref="832375372"/>
+		<tag k="addr:street" v="Palmerston Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Hornsby Ku-ring-gai Hospital"/>
+		<tag k="phone" v="+61-2-9477-9123"/>
+	</way>
+	<way id="71868170">
+		<nd ref="854071102"/>
+		<nd ref="854071103"/>
+		<nd ref="854071106"/>
+		<nd ref="854071107"/>
+		<nd ref="854071102"/>
+		<tag k="addr:housenumber" v="48"/>
+		<tag k="addr:street" v="Blaxland Road"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="72046204">
+		<nd ref="856511173"/>
+		<nd ref="856511277"/>
+		<nd ref="856511152"/>
+		<nd ref="856510487"/>
+		<nd ref="856510454"/>
+		<nd ref="856510845"/>
+		<nd ref="856510227"/>
+		<nd ref="856510692"/>
+		<nd ref="856510070"/>
+		<nd ref="856510547"/>
+		<nd ref="856509958"/>
+		<nd ref="856511173"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Bulli District Hospital"/>
+		<tag k="source" v="nearmap"/>
+		<tag k="website" v="http://www.sesiahs.health.nsw.gov.au/Hospitals/Bulli_Hospital.asp"/>
+	</way>
+	<way id="75967574">
+		<nd ref="896725329"/>
+		<nd ref="896725330"/>
+		<nd ref="896725332"/>
+		<nd ref="896725333"/>
+		<nd ref="896725335"/>
+		<nd ref="896725339"/>
+		<nd ref="896725340"/>
+		<nd ref="896725342"/>
+		<nd ref="896725344"/>
+		<nd ref="896725345"/>
+		<nd ref="896725347"/>
+		<nd ref="896725349"/>
+		<nd ref="896725350"/>
+		<nd ref="896725352"/>
+		<nd ref="896725355"/>
+		<nd ref="896725356"/>
+		<nd ref="896725357"/>
+		<nd ref="896725359"/>
+		<nd ref="896725360"/>
+		<nd ref="896725361"/>
+		<nd ref="896725362"/>
+		<nd ref="896725364"/>
+		<nd ref="898102038"/>
+		<nd ref="896725365"/>
+		<nd ref="896725368"/>
+		<nd ref="896725370"/>
+		<nd ref="896725377"/>
+		<nd ref="896725379"/>
+		<nd ref="896725381"/>
+		<nd ref="896725382"/>
+		<nd ref="896725329"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Concord Hospital"/>
+		<tag k="source" v="nearmap"/>
+	</way>
+	<way id="95040866">
+		<nd ref="1102860371"/>
+		<nd ref="1102860373"/>
+		<nd ref="1102860354"/>
+		<nd ref="1102860367"/>
+		<nd ref="1102860360"/>
+		<nd ref="1102860352"/>
+		<nd ref="1102860371"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Sydney Dental Hospital"/>
+		<tag k="source" v="Bing Imagery"/>
+	</way>
+	<way id="96019466">
+		<nd ref="1112469105"/>
+		<nd ref="1112469104"/>
+		<nd ref="1112469088"/>
+		<nd ref="1112469100"/>
+		<nd ref="1112469092"/>
+		<nd ref="1112469105"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="96019468">
+		<nd ref="1112469106"/>
+		<nd ref="1112469091"/>
+		<nd ref="1112469102"/>
+		<nd ref="1112469098"/>
+		<nd ref="1112469087"/>
+		<nd ref="1112469103"/>
+		<nd ref="1112469093"/>
+		<nd ref="1112469108"/>
+		<nd ref="1112469096"/>
+		<nd ref="1112469085"/>
+		<nd ref="1112469099"/>
+		<nd ref="1112469089"/>
+		<nd ref="1112469106"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Panania Family Clinic"/>
+	</way>
+	<way id="96663073">
+		<nd ref="1119546811"/>
+		<nd ref="1119546848"/>
+		<nd ref="1119546761"/>
+		<nd ref="1119546887"/>
+		<nd ref="1119546800"/>
+		<nd ref="1119546869"/>
+		<nd ref="1119546786"/>
+		<nd ref="1119546908"/>
+		<nd ref="1119546815"/>
+		<nd ref="1119546935"/>
+		<nd ref="1119546840"/>
+		<nd ref="1119546967"/>
+		<nd ref="1119546811"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Panania Medical Centre"/>
+	</way>
+	<way id="96911474">
+		<nd ref="1123096915"/>
+		<nd ref="1123097137"/>
+		<nd ref="1123097061"/>
+		<nd ref="1123096965"/>
+		<nd ref="1123097185"/>
+		<nd ref="1123097111"/>
+		<nd ref="1123097017"/>
+		<nd ref="1123096940"/>
+		<nd ref="1123096876"/>
+		<nd ref="1123096816"/>
+		<nd ref="1123096728"/>
+		<nd ref="1123097145"/>
+		<nd ref="1123096811"/>
+		<nd ref="1123096915"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Lawrence Hargrave Private Hospital"/>
+	</way>
+	<way id="99046119">
+		<nd ref="1145786263"/>
+		<nd ref="1145786196"/>
+		<nd ref="1145786093"/>
+		<nd ref="1145786228"/>
+		<nd ref="1145786263"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Singleton District Hospital"/>
+		<tag k="source" v="Bing"/>
+	</way>
+	<way id="102757034">
+		<nd ref="1186813026"/>
+		<nd ref="1186813025"/>
+		<nd ref="1186813027"/>
+		<nd ref="1186813030"/>
+		<nd ref="1186813029"/>
+		<nd ref="1186813026"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="War Memorial Hospital - Waverley"/>
+		<tag k="note" v="bounds not clear. currently is an estimate"/>
+		<tag k="operator" v="UnitingCare"/>
+		<tag k="source" v="survey"/>
+		<tag k="source:location" v="nearmap"/>
+	</way>
+	<way id="102788436">
+		<nd ref="1187112551"/>
+		<nd ref="1187977323"/>
+		<nd ref="1187112553"/>
+		<nd ref="1187112556"/>
+		<nd ref="1187112554"/>
+		<nd ref="1187112555"/>
+		<nd ref="1187112551"/>
+		<tag k="amenity" v="clinic"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="SAN Clinic"/>
+	</way>
+	<way id="105699021">
+		<nd ref="1217261980"/>
+		<nd ref="1217264833"/>
+		<nd ref="1217265344"/>
+		<nd ref="1217277913"/>
+		<nd ref="1217261980"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="114397056">
+		<nd ref="1296011744"/>
+		<nd ref="1296011804"/>
+		<nd ref="1296011763"/>
+		<nd ref="1296011782"/>
+		<nd ref="1296011744"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Pacific Medical Centre"/>
+	</way>
+	<way id="124965328">
+		<nd ref="1389191047"/>
+		<nd ref="1389191045"/>
+		<nd ref="1389191046"/>
+		<nd ref="1389191042"/>
+		<nd ref="1389191041"/>
+		<nd ref="1389191036"/>
+		<nd ref="1389191033"/>
+		<nd ref="1389191031"/>
+		<nd ref="1389191028"/>
+		<nd ref="1389191024"/>
+		<nd ref="1389191005"/>
+		<nd ref="1389191000"/>
+		<nd ref="1389190998"/>
+		<nd ref="1389190992"/>
+		<nd ref="1389190990"/>
+		<nd ref="1389191001"/>
+		<nd ref="1389190991"/>
+		<nd ref="1389191017"/>
+		<nd ref="1389191027"/>
+		<nd ref="1389191035"/>
+		<nd ref="1389191037"/>
+		<nd ref="1389191034"/>
+		<nd ref="1389191040"/>
+		<nd ref="1389191038"/>
+		<nd ref="1389191047"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Wollongong Hospital"/>
+	</way>
+	<way id="128255346">
+		<nd ref="1417792637"/>
+		<nd ref="1417792636"/>
+		<nd ref="1417792634"/>
+		<nd ref="1417792632"/>
+		<nd ref="1417792633"/>
+		<nd ref="1417792639"/>
+		<nd ref="1417792637"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="President Private Hospital"/>
+		<tag k="source:location" v="bing"/>
+		<tag k="source:name" v="survey"/>
+	</way>
+	<way id="130017574">
+		<nd ref="1433346317"/>
+		<nd ref="1433346215"/>
+		<nd ref="1433346205"/>
+		<nd ref="1433346192"/>
+		<nd ref="1433346305"/>
+		<nd ref="1433346282"/>
+		<nd ref="1433346261"/>
+		<nd ref="1433346247"/>
+		<nd ref="1433346228"/>
+		<nd ref="1433346211"/>
+		<nd ref="1433346202"/>
+		<nd ref="1433346339"/>
+		<nd ref="1433346287"/>
+		<nd ref="1433346265"/>
+		<nd ref="1433346250"/>
+		<nd ref="1433346236"/>
+		<nd ref="1433346199"/>
+		<nd ref="1433346337"/>
+		<nd ref="1433346317"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Kelso Christian Medical Centre"/>
+	</way>
+	<way id="130506068">
+		<nd ref="1437169371"/>
+		<nd ref="1437169378"/>
+		<nd ref="1437169372"/>
+		<nd ref="1437169376"/>
+		<nd ref="1437169374"/>
+		<nd ref="1437169356"/>
+		<nd ref="1437169353"/>
+		<nd ref="1437169345"/>
+		<nd ref="1437169331"/>
+		<nd ref="1437169329"/>
+		<nd ref="1437169327"/>
+		<nd ref="1437169344"/>
+		<nd ref="1437169371"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Royal Ryde Rehabilitation Centre"/>
+	</way>
+	<way id="140483629">
+		<nd ref="1539101046"/>
+		<nd ref="1539101061"/>
+		<nd ref="1539101064"/>
+		<nd ref="1539101059"/>
+		<nd ref="1539101057"/>
+		<nd ref="1539101048"/>
+		<nd ref="1539101046"/>
+		<tag k="addr:housenumber" v="3"/>
+		<tag k="addr:street" v="Hills Street"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Dr Adrien Cohen"/>
+	</way>
+	<way id="140483630">
+		<nd ref="1539101062"/>
+		<nd ref="1539101080"/>
+		<nd ref="1539101085"/>
+		<nd ref="1539101091"/>
+		<nd ref="1539101086"/>
+		<nd ref="1539101087"/>
+		<nd ref="1539101082"/>
+		<nd ref="1539101084"/>
+		<nd ref="1539101078"/>
+		<nd ref="1539101075"/>
+		<nd ref="1539101065"/>
+		<nd ref="1539101062"/>
+		<tag k="addr:housenumber" v="1"/>
+		<tag k="addr:street" v="Hills Street"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Hills Street Sports Medicine Centre"/>
+	</way>
+	<way id="140483666">
+		<nd ref="1539100486"/>
+		<nd ref="1539100502"/>
+		<nd ref="1539100513"/>
+		<nd ref="1539100485"/>
+		<nd ref="1539100483"/>
+		<nd ref="1539100488"/>
+		<nd ref="1539100486"/>
+		<tag k="addr:housenumber" v="29"/>
+		<tag k="addr:street" v="Hills Street"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="140795430">
+		<nd ref="1541780452"/>
+		<nd ref="1541780454"/>
+		<nd ref="1541780498"/>
+		<nd ref="1541780496"/>
+		<nd ref="1541780500"/>
+		<nd ref="1541780501"/>
+		<nd ref="1541780513"/>
+		<nd ref="1541780511"/>
+		<nd ref="1541780503"/>
+		<nd ref="1541780509"/>
+		<nd ref="1541780484"/>
+		<nd ref="1541780493"/>
+		<nd ref="1541780482"/>
+		<nd ref="1541780480"/>
+		<nd ref="1541780478"/>
+		<nd ref="1541780476"/>
+		<nd ref="1541780477"/>
+		<nd ref="1541780461"/>
+		<nd ref="1541780452"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Liverpool Private Hospital"/>
+	</way>
+	<way id="140795432">
+		<nd ref="1541780456"/>
+		<nd ref="1541780458"/>
+		<nd ref="1541780466"/>
+		<nd ref="1541780465"/>
+		<nd ref="1541780456"/>
+	</way>
+	<way id="147456038">
+		<nd ref="1606767742"/>
+		<nd ref="1606767773"/>
+		<nd ref="1606767780"/>
+		<nd ref="1606767770"/>
+		<nd ref="1606767772"/>
+		<nd ref="1606767764"/>
+		<nd ref="1606767760"/>
+		<nd ref="1606767745"/>
+		<nd ref="1606767744"/>
+		<nd ref="1606767743"/>
+		<nd ref="1606767742"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="147456063">
+		<nd ref="1606767763"/>
+		<nd ref="1606767784"/>
+		<nd ref="1606767782"/>
+		<nd ref="1606767757"/>
+		<nd ref="1606767763"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="147456075">
+		<nd ref="1606767765"/>
+		<nd ref="1606767766"/>
+		<nd ref="1606767790"/>
+		<nd ref="1606767788"/>
+		<nd ref="1606767794"/>
+		<nd ref="1606767792"/>
+		<nd ref="1606767765"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="148279337">
+		<nd ref="1613757750"/>
+		<nd ref="1613757743"/>
+		<nd ref="1613757745"/>
+		<nd ref="1613757731"/>
+		<nd ref="1613757739"/>
+		<nd ref="1613757725"/>
+		<nd ref="1613757715"/>
+		<nd ref="1613757723"/>
+		<nd ref="1613757717"/>
+		<nd ref="1613757722"/>
+		<nd ref="1613757721"/>
+		<nd ref="1613757726"/>
+		<nd ref="1613757724"/>
+		<nd ref="1613757727"/>
+		<nd ref="1613757729"/>
+		<nd ref="1613757741"/>
+		<nd ref="1613757747"/>
+		<nd ref="1613757753"/>
+		<nd ref="1613757748"/>
+		<nd ref="1613757750"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Lingard Private Hospital"/>
+	</way>
+	<way id="150186096">
+		<nd ref="1631209622"/>
+		<nd ref="1631209624"/>
+		<nd ref="1631209623"/>
+		<nd ref="1641154408"/>
+		<nd ref="1641154363"/>
+		<nd ref="1631209617"/>
+		<nd ref="1631209622"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="healthcare" v="centre"/>
+		<tag k="name" v="Australian Health Care"/>
+	</way>
+	<way id="150604204">
+		<nd ref="141842828"/>
+		<nd ref="1639749195"/>
+		<nd ref="1635067854"/>
+		<nd ref="1635067869"/>
+		<nd ref="1635067866"/>
+		<nd ref="1635067856"/>
+		<nd ref="141844567"/>
+		<nd ref="141844568"/>
+		<nd ref="141844569"/>
+		<nd ref="141844570"/>
+		<nd ref="141844571"/>
+		<nd ref="141844572"/>
+		<nd ref="141844573"/>
+		<nd ref="141844575"/>
+		<nd ref="141844578"/>
+		<nd ref="2294327101"/>
+		<nd ref="618720071"/>
+		<nd ref="610196243"/>
+		<nd ref="618720095"/>
+		<nd ref="1915033987"/>
+		<nd ref="141842828"/>
+	</way>
+	<way id="150604206">
+		<nd ref="141844567"/>
+		<nd ref="1635067862"/>
+		<nd ref="1635067860"/>
+		<nd ref="1635067848"/>
+		<nd ref="1635067852"/>
+		<nd ref="1635067865"/>
+		<nd ref="1635067846"/>
+		<nd ref="1635067858"/>
+		<nd ref="1635067873"/>
+		<nd ref="1635067877"/>
+		<nd ref="1635067867"/>
+		<nd ref="1635067868"/>
+		<nd ref="141844565"/>
+		<nd ref="141844566"/>
+		<nd ref="141844567"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Westmead Children&#39;s Hospital"/>
+	</way>
+	<way id="151666744">
+		<nd ref="1645055129"/>
+		<nd ref="1645055122"/>
+		<nd ref="1645055115"/>
+		<nd ref="1645055126"/>
+		<nd ref="1645055129"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Westmead Private Hospital"/>
+	</way>
+	<way id="156718694">
+		<nd ref="1689364694"/>
+		<nd ref="1689364698"/>
+		<nd ref="1689364696"/>
+		<nd ref="1689364682"/>
+		<nd ref="1689364699"/>
+		<nd ref="1689364694"/>
+		<tag k="amenity" v="hospital"/>
+	</way>
+	<way id="161382326">
+		<nd ref="1733569189"/>
+		<nd ref="1733569223"/>
+		<nd ref="1733569187"/>
+		<nd ref="1733569185"/>
+		<nd ref="1733569183"/>
+		<nd ref="1733569218"/>
+		<nd ref="1733569221"/>
+		<nd ref="1733569181"/>
+		<nd ref="1733569208"/>
+		<nd ref="1733569210"/>
+		<nd ref="1733569225"/>
+		<nd ref="1733569193"/>
+		<nd ref="1733569216"/>
+		<nd ref="1733569212"/>
+		<nd ref="1733569191"/>
+		<nd ref="1733569214"/>
+		<nd ref="1733569178"/>
+		<nd ref="1733569206"/>
+		<nd ref="1733569189"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Hunter Valley Private Hospital"/>
+		<tag k="website" v="http://www.hvph.com.au"/>
+	</way>
+	<way id="164865825">
+		<nd ref="1764606626"/>
+		<nd ref="1764606599"/>
+		<nd ref="1764606624"/>
+		<nd ref="1764606592"/>
+		<nd ref="1764606596"/>
+		<nd ref="1764606601"/>
+		<nd ref="1764606626"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="area" v="yes"/>
+		<tag k="name" v="Waddell House Private Hospital"/>
+		<tag k="source" v="Bing"/>
+	</way>
+	<way id="172914324">
+		<nd ref="1837532536"/>
+		<nd ref="1837532535"/>
+		<nd ref="1837532531"/>
+		<nd ref="1837532529"/>
+		<nd ref="1837532534"/>
+		<nd ref="1837532533"/>
+		<nd ref="1837532537"/>
+		<nd ref="1837532530"/>
+		<nd ref="1837532532"/>
+		<nd ref="1837532536"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="James Fletcher Hospital (not in use)"/>
+	</way>
+	<way id="173134355">
+		<nd ref="1839625073"/>
+		<nd ref="1839625069"/>
+		<nd ref="1839625067"/>
+		<nd ref="1839625084"/>
+		<nd ref="1839625074"/>
+		<nd ref="1835527889"/>
+		<nd ref="1835527893"/>
+		<nd ref="1839625076"/>
+		<nd ref="1837898362"/>
+		<nd ref="1835528457"/>
+		<nd ref="1835528456"/>
+		<nd ref="1869430152"/>
+		<nd ref="49146777"/>
+		<nd ref="1869430151"/>
+		<nd ref="43270672"/>
+		<nd ref="1839625071"/>
+		<nd ref="1836233181"/>
+		<nd ref="1839625073"/>
+		<tag k="amenity" v="hospital"/>
+	</way>
+	<way id="175583203">
+		<nd ref="1861520575"/>
+		<nd ref="1861520573"/>
+		<nd ref="1861520576"/>
+		<nd ref="1861520574"/>
+		<nd ref="1861520575"/>
+		<tag k="amenity" v="hospital"/>
+	</way>
+	<way id="175836662">
+		<nd ref="1863962942"/>
+		<nd ref="1863962944"/>
+		<nd ref="1863962952"/>
+		<nd ref="1863962948"/>
+		<nd ref="1863962942"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="contact:fax" v="+61 2 94333599"/>
+		<tag k="contact:phone" v="+61 2 94333555"/>
+		<tag k="contact:website" v="http://www.northsidegroup.com.au/nsc/"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Northside Clinic"/>
+	</way>
+	<way id="175993587">
+		<nd ref="1865569059"/>
+		<nd ref="1865569064"/>
+		<nd ref="1865569075"/>
+		<nd ref="1865569061"/>
+		<nd ref="1865569058"/>
+		<nd ref="1865569067"/>
+		<nd ref="1865569062"/>
+		<nd ref="1865569070"/>
+		<nd ref="1865569065"/>
+		<nd ref="1865569072"/>
+		<nd ref="1865569063"/>
+		<nd ref="1865569077"/>
+		<nd ref="1865569074"/>
+		<nd ref="1865569060"/>
+		<nd ref="1865569068"/>
+		<nd ref="1865569057"/>
+		<nd ref="1934662970"/>
+		<nd ref="1865569059"/>
+		<tag k="addr:country" v="AU"/>
+		<tag k="addr:postcode" v="2560"/>
+		<tag k="addr:state" v="New South Wales"/>
+		<tag k="addr:street" v="Therry Road"/>
+		<tag k="addr:suburb" v="Campbelltown"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="area" v="yes"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="fax" v="+61-2-46343880"/>
+		<tag k="name" v="Campbelltown Hospital"/>
+		<tag k="phone" v="+61-2-46343000"/>
+		<tag k="website" v="http://www.sswahs.nsw.gov.au/ccq/"/>
+	</way>
+	<way id="176174104">
+		<nd ref="889605590"/>
+		<nd ref="862649053"/>
+		<nd ref="889605557"/>
+		<nd ref="889605681"/>
+		<nd ref="889605613"/>
+		<nd ref="862649119"/>
+		<nd ref="340367870"/>
+		<nd ref="889605665"/>
+		<nd ref="889605590"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="hospital:type" v="public"/>
+		<tag k="name" v="Bathurst Base Hospital"/>
+	</way>
+	<way id="183105317">
+		<nd ref="1934662966"/>
+		<nd ref="1934662951"/>
+		<nd ref="1934662972"/>
+		<nd ref="1934662945"/>
+		<nd ref="1934662974"/>
+		<nd ref="1934662948"/>
+		<nd ref="1934662970"/>
+		<nd ref="1934662954"/>
+		<nd ref="1934662967"/>
+		<nd ref="1934662968"/>
+		<nd ref="1934662976"/>
+		<nd ref="1934662966"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Campbelltown Private Hospital"/>
+	</way>
+	<way id="184393676">
+		<nd ref="1948735873"/>
+		<nd ref="1948735882"/>
+		<nd ref="1948735886"/>
+		<nd ref="1948735889"/>
+		<nd ref="1948735878"/>
+		<nd ref="1948735873"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Greenwich Hospital"/>
+		<tag k="website" v="http://www.hammond.com.au/locations/greenwich"/>
+	</way>
+	<way id="206967239">
+		<nd ref="1865396319"/>
+		<nd ref="1865396317"/>
+		<nd ref="1832199251"/>
+		<nd ref="1832199249"/>
+		<nd ref="2170756421"/>
+		<nd ref="1836063438"/>
+		<nd ref="1836063443"/>
+		<nd ref="2170756423"/>
+		<nd ref="1832199253"/>
+		<nd ref="1800208336"/>
+		<nd ref="1835982989"/>
+		<nd ref="2138843440"/>
+		<nd ref="12050173"/>
+		<nd ref="1841534309"/>
+		<nd ref="1832330435"/>
+		<nd ref="1832330434"/>
+		<nd ref="1832330437"/>
+		<nd ref="1832330442"/>
+		<nd ref="2144990656"/>
+		<nd ref="1832330446"/>
+		<nd ref="1832330452"/>
+		<nd ref="2144987224"/>
+		<nd ref="1820241191"/>
+		<nd ref="1820241227"/>
+		<nd ref="1820240947"/>
+		<nd ref="2144990653"/>
+		<nd ref="1820241104"/>
+		<nd ref="1832330457"/>
+		<nd ref="1820241091"/>
+		<nd ref="1840695757"/>
+		<nd ref="1832330456"/>
+		<nd ref="2144990654"/>
+		<nd ref="1865389951"/>
+		<nd ref="1865396320"/>
+		<nd ref="1865396312"/>
+		<nd ref="1865396314"/>
+		<nd ref="1865396313"/>
+		<nd ref="1865396315"/>
+		<nd ref="1865396319"/>
+		<tag k="addr:postcode" v="2050"/>
+		<tag k="addr:street" v="Missenden Street"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Royal Prince Alfred Hospital"/>
+		<tag k="short_name" v="RPA"/>
+		<tag k="website" v="http://www.slhd.nsw.gov.au/rpa/"/>
+		<tag k="wikipedia" v="en:Royal_Prince_Alfred_Hospital"/>
+	</way>
+	<way id="207716877">
+		<nd ref="2179709103"/>
+		<nd ref="2179709273"/>
+		<nd ref="2179709135"/>
+		<nd ref="2179709387"/>
+		<nd ref="2179709103"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Gladesville-Macquarie Hospital"/>
+	</way>
+	<way id="207844007">
+		<nd ref="2180966246"/>
+		<nd ref="2180966236"/>
+		<nd ref="638551781"/>
+		<nd ref="638551796"/>
+		<nd ref="638551829"/>
+		<nd ref="26409019"/>
+		<nd ref="2180966235"/>
+		<nd ref="2180966259"/>
+		<nd ref="2180966237"/>
+		<nd ref="2180966232"/>
+		<nd ref="2180966247"/>
+		<nd ref="2180966249"/>
+		<nd ref="2180966246"/>
+		<tag k="addr:housenumber" v="1"/>
+		<tag k="addr:postcode" v="2065"/>
+		<tag k="addr:street" v="Reserve Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Royal North Shore Hospital"/>
+		<tag k="phone" v="+61-2-9926-7111"/>
+		<tag k="short_name" v="RNSH"/>
+		<tag k="source" v="Bing"/>
+		<tag k="website" v="http://www.nslhd.health.nsw.gov.au/NSHLD_Hospitals/rns.html"/>
+		<tag k="wikipedia" v="en:Royal North Shore Hospital"/>
+	</way>
+	<way id="208653014">
+		<nd ref="2189277116"/>
+		<nd ref="2189277156"/>
+		<nd ref="2189277168"/>
+		<nd ref="2189277165"/>
+		<nd ref="2189277167"/>
+		<nd ref="2189277151"/>
+		<nd ref="2189277160"/>
+		<nd ref="2189277153"/>
+		<nd ref="2189277169"/>
+		<nd ref="2189277162"/>
+		<nd ref="2189277158"/>
+		<nd ref="2189277149"/>
+		<nd ref="2189277143"/>
+		<nd ref="2189277138"/>
+		<nd ref="2189277146"/>
+		<nd ref="2189277141"/>
+		<nd ref="2189277129"/>
+		<nd ref="2189277127"/>
+		<nd ref="2189277124"/>
+		<nd ref="2189277122"/>
+		<nd ref="2189277118"/>
+		<nd ref="2189277115"/>
+		<nd ref="2189277119"/>
+		<nd ref="2189277113"/>
+		<nd ref="2189277102"/>
+		<nd ref="2189277108"/>
+		<nd ref="2189277106"/>
+		<nd ref="2189277117"/>
+		<nd ref="2189277120"/>
+		<nd ref="2189277111"/>
+		<nd ref="2189277116"/>
+		<tag k="addr:street" v="Huntley Grange Road"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="contact:fax" v="+61 2 4560 5662"/>
+		<tag k="contact:phone" v="+61 2 4751 0300"/>
+		<tag k="emergency" v="no"/>
+		<tag k="name" v="Springwood Hospital"/>
+	</way>
+	<way id="213104319">
+		<nd ref="2228546719"/>
+		<nd ref="2228546730"/>
+		<nd ref="2228546703"/>
+		<nd ref="2228546721"/>
+		<nd ref="2228546724"/>
+		<nd ref="2228546719"/>
+		<tag k="amenity" v="doctors"/>
+		<tag k="building" v="yes"/>
+	</way>
+	<way id="220409106">
+		<nd ref="2295341376"/>
+		<nd ref="141844563"/>
+		<nd ref="2295341371"/>
+		<nd ref="2295341372"/>
+		<nd ref="1635067870"/>
+		<nd ref="1635067872"/>
+		<nd ref="1635067875"/>
+		<nd ref="1635067850"/>
+		<nd ref="1635067864"/>
+		<nd ref="139666314"/>
+	</way>
+	<way id="220409108">
+		<nd ref="2295341376"/>
+		<nd ref="2295341377"/>
+		<nd ref="2295341378"/>
+		<nd ref="2295341380"/>
+		<nd ref="2295341381"/>
+		<nd ref="2295341383"/>
+		<nd ref="2295341384"/>
+		<nd ref="2295341385"/>
+		<nd ref="2295341387"/>
+		<nd ref="2295341389"/>
+		<nd ref="2295341391"/>
+		<nd ref="2295341392"/>
+		<nd ref="2295341393"/>
+		<nd ref="2295341395"/>
+		<nd ref="2295341396"/>
+		<nd ref="2295341398"/>
+		<nd ref="2295341399"/>
+		<nd ref="2295341400"/>
+		<nd ref="2295341401"/>
+		<nd ref="2295341402"/>
+		<nd ref="2295341404"/>
+		<nd ref="2295341405"/>
+		<nd ref="2295341407"/>
+		<nd ref="2295341408"/>
+		<nd ref="141844558"/>
+		<nd ref="2295341410"/>
+		<nd ref="2295341412"/>
+		<nd ref="1634907413"/>
+		<tag k="source" v="ABS2011-data.gov.au;bing"/>
+	</way>
+	<way id="220409109">
+		<nd ref="2295341291"/>
+		<nd ref="2295341293"/>
+		<nd ref="2295341311"/>
+		<nd ref="2295341337"/>
+		<nd ref="2295341364"/>
+		<nd ref="2295341369"/>
+		<nd ref="2295341379"/>
+		<nd ref="2295341382"/>
+		<nd ref="2295341386"/>
+		<nd ref="2295341388"/>
+		<nd ref="2295341390"/>
+		<nd ref="2295341394"/>
+		<nd ref="2295341397"/>
+		<nd ref="2295341403"/>
+		<nd ref="2295341406"/>
+		<nd ref="2295341409"/>
+		<nd ref="2295341411"/>
+		<nd ref="2295341422"/>
+		<nd ref="2295341427"/>
+	</way>
+	<way id="220409115">
+		<nd ref="139666314"/>
+		<nd ref="139666313"/>
+		<nd ref="141844557"/>
+	</way>
+	<way id="220411114">
+		<nd ref="1634907413"/>
+		<nd ref="2295341414"/>
+		<nd ref="2295341415"/>
+		<nd ref="2295341416"/>
+		<nd ref="2295341417"/>
+		<nd ref="2295341418"/>
+		<nd ref="2295341420"/>
+		<nd ref="2295341423"/>
+		<nd ref="2295341425"/>
+		<nd ref="2295341428"/>
+		<nd ref="2295341429"/>
+		<nd ref="2295341431"/>
+		<nd ref="2295341432"/>
+		<tag k="source" v="ABS2011-data.gov.au;bing"/>
+	</way>
+	<way id="220411123">
+		<nd ref="1634907523"/>
+		<nd ref="2295362421"/>
+		<nd ref="2295341432"/>
+	</way>
+	<way id="220411124">
+		<nd ref="141844557"/>
+		<nd ref="2295362419"/>
+		<nd ref="1634907523"/>
+	</way>
+	<relation id="1906038">
+		<member type="way" ref="140795430" role="outer"/>
+		<member type="way" ref="140795432" role="inner"/>
+		<tag k="addr:country" v="AU"/>
+		<tag k="addr:housenumber" v="40"/>
+		<tag k="addr:postcode" v="2170"/>
+		<tag k="addr:state" v="New South Wales"/>
+		<tag k="addr:street" v="Bigge Street"/>
+		<tag k="addr:suburb" v="Liverpool"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="building" v="yes"/>
+		<tag k="fax" v="+61-2-96017556"/>
+		<tag k="name" v="Sydney Southwest Private Hospital"/>
+		<tag k="phone" v="+61-2-98210333"/>
+		<tag k="source" v="bing"/>
+		<tag k="type" v="multipolygon"/>
+		<tag k="website" v="http://www.healthscopehospitals.com.au/info/general/HospitalHome/get/33/hospitalId/"/>
+	</relation>
+	<relation id="2914756">
+		<member type="way" ref="150604204" role="outer"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="emergency" v="yes"/>
+		<tag k="name" v="Westmead Hospital"/>
+		<tag k="type" v="multipolygon"/>
+	</relation>
+	<relation id="2914774">
+		<member type="way" ref="14458565" role="outer"/>
+		<member type="way" ref="220409109" role="outer"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="name" v="Cumberland Hospital (East Campus)"/>
+		<tag k="type" v="multipolygon"/>
+	</relation>
+	<relation id="2914775">
+		<member type="way" ref="220409115" role="outer"/>
+		<member type="way" ref="220411124" role="outer"/>
+		<member type="way" ref="220411123" role="outer"/>
+		<member type="way" ref="220411114" role="outer"/>
+		<member type="way" ref="220409108" role="outer"/>
+		<member type="way" ref="220409106" role="outer"/>
+		<tag k="amenity" v="hospital"/>
+		<tag k="layer" v="-1"/>
+		<tag k="name" v="Cumberland Hospital (West Campus)"/>
+		<tag k="type" v="multipolygon"/>
+	</relation>
+</osm>

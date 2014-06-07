@@ -1,0 +1,12 @@
+List of shopping Centres:
+
+http://en.wikipedia.org/wiki/List_of_shopping_centres_in_Australia
+
+http://www.informationfreeway.org/api/0.6/node[shop=shopping_centre]
+
+osmfilter sydney.osm --keep-tags="shop=shopping_center" -o=shop.osm
+
+osmfilter sydney.osm --keep="shop=supermarket =greengrocer =mall" >shop.osm
+
+osmfilter sydney.osm --keep="amenity=clinic =doctors =hospital" >health.osm
+

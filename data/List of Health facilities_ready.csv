@@ -1,0 +1,205 @@
+name,address,suburb,phone,latitude,longitude
+Gosford Hospital,Holden Street,Gosford,02 4320 2111,-33.423386,151.340134
+Long Jetty Health Care Facility,Wyong Road,Killarney Vale,02 4336 7700,-33.364819,151.460083
+Woy Woy Public Hospital,Ocean Beach Road,Woy Woy,02 4344 8444,-33.491688,151.320953
+Wyong Public Hospital,Pacific Highway,Kanwal,02 4394 8000,-33.262169,151.482224
+Wollongong Hospital,Loftus Street,Wollongong,02 4222 5000,-34.4244,150.886444
+Shellharbour Hospital,15-17 Madigan Boulevarde,Mt Warrigal,02 4295 2500,-34.550356,150.842285
+Shoalhaven Hospital,Shoalhaven Street,Nowra,02 4421 3111,-34.873154,150.595947
+Kiama Hospital and Community Health Service,Bonaira Street,Kiama,02 4233 1033,-34.682308,150.850754
+Milton Ulladulla Hospital,106 Princes Highway,Milton,02 4455 1333,-35.31768,150.438324
+Port Kembla Hospital,Cowper Street,Port Kembla,02 4223 8000,-34.486317,150.896225
+Bulli Hospital,Hospital Road,Bulli,02 4284 4344,-34.336632,150.909302
+Coledale District Hospital,636 Lawrence Hargrave Drive,Coledale,02 4267 2266,-34.282772,150.95253
+David Berry Hospital,85 Tannery Road,Berry,02 4464 1001,-34.774582,150.704346
+Blue Mountains District ANZAC Memorial Hospital,Cnr Woodlands Road and Great Western Hwy,Katoomba,02 4784 6500,-33.711071,150.311783
+Portland Tabulam Health Centre,20 Green Street,Portland,02 6359 2666,-33.356911,149.979416
+Nepean Hospital,Derby Street,Kingswood,02 4734 2000,-33.762489,150.718964
+Lithgow Integrated Health Service,Col Drewe Drive,Lithgow,02 6350 2300,-33.500111,150.128799
+Springwood Hospital,Huntley Grange Road,Springwood,02 4751 0300,-33.691593,150.571609
+Royal North Shore Hospital,Pacific Highway,St Leonards,02 9926 7111,-33.824203,151.192123
+Ryde Hospital,Denistone Road,Eastwood,02 9874 0199,-33.792679,151.08812
+Neringah Hospital,4-12 Neringah Avenue South,Wahroonga,02 9488 2200,-33.717865,151.114914
+Hornsby Ku-ring-gai Hospital,Palmerston Rd,Hornsby,02 9477 9123,-33.702103,151.111435
+Greenwich Hospital,River Road,Greenwich,02 9903 8305,-33.827129,151.187714
+Manly Hospital,Darley Road,Manly,02 9976 9611,-33.798466,151.286057
+Mona Vale Hospital,Coronation Street,Mona Vale,02 9998 0333,-33.687611,151.304626
+Prince of Wales Hospital,Barker Street,Randwick,02 9382 2222,-33.919071,151.23851
+Calvary Health Care Sydney,91-111 Rocky Point Road,Kogarah,02 9553 3111,-33.975208,151.13652
+Gower Wilson - Multi-Purpose Service,Lord Howe Island,Lord Howe Island,02 6563 2000,-31.558001,159.085999
+War Memorial Hospital,125 Birrell Street,Waverley,02 9369 0100,-33.896572,151.254318
+Royal Hospital for Women,Barker Street,Randwick,02 9382 6111,-33.919071,151.23851
+St George Hospital,Belgrave Street,Kogarah,02 9113 1111,-33.963974,151.132721
+Sutherland Hospital & Community Health Service,Cnr The Kingsway and Kareena Road ,Caringbah,02 9540 7111,-34.040096,151.112122
+Sydney Hospital & Sydney Eye Hospital,8 Macquarie Street,Sydney,02 9382 7111,-33.860085,151.213303
+Queen Victoria Memorial Home,615 Thirlmere Way,Picton,02 4683 6900,-34.185738,150.589264
+Camden Hospital,Menangle Road,Camden,02 4634 3000,-34.056595,150.696457
+Campbelltown Hospital,Therry Road,Campbelltown,02 4634 3000,-34.081158,150.808044
+Carrington Centennial Hospital,90 Werombi Road,Camden,02 4659 0590,-34.050873,150.669693
+Fairfield Hospital,Cnr Polding Street & Prairievale Road,Fairfield,02 9616 8111,-33.863991,150.954117
+Bowral Hospital,Mona road,Bowral,02 4861 0200,-34.484978,150.424622
+Braeside Hospital,340 Prairie Vale Road,Prairiewood,02 9616 8600,-33.860573,150.901932
+Bankstown Lidcombe Hospital,Eldridge Road,Bankstown,02 9722 8000,-33.932652,151.027145
+Liverpool Hospital,Cnr Elizabeth & Goulburn Street,Liverpool,02 8738 3000,-33.919643,150.928833
+Balmain Hospital,29 Booth Street,Balmain,02 9395 2111,-33.860836,151.182022
+Concord Repatriation General Hospital,Hospital Rd,Concord,02 9767 5000,-33.839252,151.088867
+Canterbury Hospital,Canterbury Road,Campsie,02 9787 0000,-33.916367,151.108917
+Royal Prince Alfred Hospital,Missenden Road,Camperdown,02 9515 6111,-33.888622,151.181595
+Westmead Hospital,Cnr Hawkesbury & Darcy Road,Westmead,02 9845 5555,-33.814514,150.98465
+Auburn Hospital & Community Health Services,Hargrave Road,Auburn,02 8759 3000,-33.858307,151.032867
+Blacktown Hospital,Blacktown Road,Blacktown,02 9881 8000,-33.773819,150.915283
+Mount Druitt Hospital,75 Railway St,Mount Druitt,02 9881 1555,-33.764645,150.831055
+Broken Hill Base Hospital,Thomas Street,Broken Hill,08 8080 1333,-31.946787,141.457687
+Balranald District Hospital,Market Street,Balranald,03 5020 1606,-34.642921,143.567596
+Wilcannia Multi-Purpose Service,14 Ross Street,Wilcannia,08 8083 8777,-31.556761,143.385101
+Wentworth District Hospital,Silver City Hwy,Wentworth,03 5027 2345,-33.999489,141.857544
+Calvary Mater Newcastle,20 Edith Street,Waratah,02 4921 1211,-32.900021,151.721176
+Werris Creek Community Hospital,North Street,Werris Creek,02 6768 6600,-31.347075,150.647614
+Wee Waa Community Hospital,Alma Street,Wee Waa,02 6795 0400,-30.228371,149.44017
+Warialda Multi Purpose Service,Long Street,Warialda,02 6728 9000,-29.538219,150.57431
+Walcha Multi Purpose Service,11 South Middle Street,Walcha,02 6774 2366,-30.984896,151.598373
+"Wilson Memorial Community Hospital, Murrurundi",Cnr O'Connell & Paradise Rd,Murrurundi,02 6546 9000,-31.769459,150.834946
+Wingham Community Hospital,32 Bungay Road,Wingham,02 6557 3400,-31.876787,152.366486
+Quirindi Community Hospital,Nowland Street,Quirindi,02 6746 0200,-31.500517,150.680847
+"Scott Memorial Hospital, Scone",Stafford Street,Scone,02 6540 2100,-32.049389,150.876541
+Singleton District Hospital,Dangar Road,Singleton,02 6571 9222,-32.565575,151.181046
+Tamworth Rural Referral Hospital,Dean Street ,Tamworth,02 6767 7700,-31.078798,150.922287
+Tingha Multi Purpose Service,13997 Guyra Road,Tingha,02 6723 3266,-29.950211,151.208145
+Vegetable Creek Hospital,13-33 Glen Innes Road,Emmaville,02 6734 7900,-29.390855,151.504135
+Kimbarra Lodge Hostel - Gloucester Soldiers Memorial Hospital,Hay Street,Gloucester,02 6558 1307,-32.014194,151.960403
+Barraba Multi Purpose Service,Edward Street,Barraba,02 6782 2500,-30.382584,150.610397
+Armidale Rural Referral Hospital,Rusden Street,Armidale,02 6776 9500,-30.515821,151.66983
+Belmont Hospital,Croudace Bay Road,Belmont,02 4923 2000,-33.027691,151.650513
+Bulahdelah Community Hospital,Richmond Street,Bulahdelah,02 4997 4240,-32.404049,152.212158
+Boggabri Multi-Purpose Service,Wee Waa Street,Boggabri,02 6749 7000,-30.711603,150.041245
+Bingara Multi Purpose Service,Keera Road,Bingara,02 6728 0100,-29.86684,150.562759
+Cessnock District Hospital,24 View Street,Cessnock,02 4991 0555,-32.828228,151.348984
+Dungog Community Hospital,22 Hospital Road,Dungog,02 4995 7000,-32.399384,151.746704
+Denman Multi Purpose Service,51-53 Ogilvie St,Denman,02 6547 3999,-32.389095,150.684525
+Muswellbrook Hospital,Brentwood Street,Muswellbrook,02 6542 2000,-32.26479,150.896942
+Narrabri District Hospital,66 Gibbons Street,Narrabri,02 6799 2800,-30.353441,148.887024
+Manning Rural Referral Hospital (Taree),26 York Street,Taree,02 6592 9111,-31.909702,152.454697
+The Maitland Hospital,"550 High St,",Maitland,02 4939 2000,-32.752937,151.58696
+Manilla Health Service,Court Street,Manilla,02 6785 4000,-30.75045,150.71875
+Merriwa Multi Purpose Service,60 McKenzie Street,Merriwa,02 6532 5000,-32.141502,150.356003
+Tenterfield Community Hospital,Naas St,Tenterfield,02 6739 5200,-29.045439,152.019684
+Tomaree Community Hospital,Trevally Street,Nelson Bay,02 4984 0700,-32.721745,152.156967
+Inverell District Hospital,41 Swanbrook Rd,Inverell,02 6721 9500,-29.770283,151.139206
+John Hunter Hospital,Lookout Road,New Lambton Heights,02 4921 3000,-32.933056,151.690155
+Kurri Kurri Hospital,Lang Street,Kurri Kurri,02 4936 3200,-32.817947,151.481934
+Glen Innes District Hospital,94 Taylor Street,Glen Innes,02 6739 0200,-29.732536,151.731552
+Gloucester Soldiers Memorial Hospital,Church Street,Gloucester,02 6538 5000,-32.007565,151.958267
+Gunnedah District Hospital,Marquis Street,Gunnedah,02 6741 8000,-30.984543,150.24913
+Guyra Multi Purpose Service,44-48 Sole Street,Guyra,02 6738 4000,-30.211561,151.676514
+Kempsey District Hospital,119 River Street,Kempsey,02 6562 6155,-31.058041,152.796326
+Macksville District Hospital,Boundary Street,Macksville,02 6568 0666,-30.712795,152.91893
+Port Macquarie Base Hospital,Wrights Rd,Port Macquarie,02 6581 2000,-31.453512,152.880707
+Dorrigo Multi-Purpose Service,Beech Street,Dorrigo,02 6692 7700,-30.34124,152.714294
+Coffs Harbour Base Hospital,345 Pacific Highway,Coffs Harbour,02 6656 7000,-30.31658,153.091675
+Bellingen River District Hospital,Church Street,Bellingen,02 6659 5800,-30.452322,152.897003
+Wauchope District Memorial Hospital,69 High Street,Wauchope,02 6585 1300,-31.45776,152.727936
+Wyalong Hospital,West Wyalong Condobolin Road,West Wyalong,02 6979 0000,-33.918186,147.197495
+Young District Hospital,Allanan Street,Young,02 6382 8888,-34.319496,148.287933
+Wagga Wagga Base Hospital,Docker Street,Wagga Wagga,02 6938 6666,-35.117607,147.356201
+The Cootamundra Hospital,Mackay Street,Cootamundra,02 6942 0444,-34.527264,148.159607
+Tumbarumba Multi Purpose Service,Mitchell Street,Tumbarumba,02 6948 9600,-35.778843,148.005737
+Tumut District Hospital,Simpson Street,Tumut,02 6947 0800,-35.320648,148.230621
+Urana Health Service,Cnr Church and Princess St,Urana,02 6920 8106,-35.327545,146.268021
+Tocumwal Hospital,Adams Street,Tocomwal,03 5874 2166,-32.831026,150.139
+Temora Hospital,169 Temora Young Road,Temora,02 6977 1066,-34.443249,147.545914
+Mercy Health Service,Poole Street,Albury,02 6021 3322,-36.070316,146.91629
+Berrigan War Memorial Hospital,Memorial Street,Berrigan,03 5885 2208,-35.661774,145.813446
+Batlow/Adelong Multi Purpose Service,61-81 Pioneer Street,Batlow,02 6941 4333,-35.521397,148.147278
+Barham Koondrook Soldiers Memorial Hospital,Punt Road,Barham,03 5451 1000,-35.625858,144.133957
+Boorowa District Hospital,Dry Street,Boorowa,02 6385 3004,-34.436794,148.727341
+Coolamon-Ganmain Health Service,Buchanan Dr,Coolamon,02 6927 3303,-34.820198,147.199677
+Finley Hospital & Community Health Centre,Dawe Avenue,Finley,03 5883 1133,-35.64222,145.571167
+Corowa Health Service,53 Guy Street,Corowa,02 6033 7555,-35.99353,146.384064
+Culcairn Health Service,57 Balfour Street,Culcairn,02 6029 8203,"-35.66692,147.042431",147.042465
+Murrumburrah-Harden District Hospital,Swift Street,Harden,02 6386 2200,-34.557209,148.36824
+Mercy Care Hospital - Young,69 Demondrille Street,Young,02 6382 8888,-34.322525,148.290863
+Narrandera District Hospital,54 Adams Street,Narrandera,02 6959 1166,-34.73534,146.550095
+Lockhart & District Hospital,Hebden Street,Lockhart,02 6920 5206,-35.222736,146.719864
+Lake Cargelligo District Hospital,Uabba Street,Lake Cargelligo,02 6898 1200,-33.292316,146.369385
+Leeton District Hospital,Wade Avenue & Palm Avenue,Leeton,02 6953 1111,-34.544571,146.407333
+Gundagai District Hospital,OHagen Street,Gundagai,02 6944 1022,-35.05291,148.106293
+Junee District Hospital,67 Broadway Street,Junee,02 6924 8200 ,-34.86779,147.582703
+Jerilderie Health Service,Newell Highway,Jerilderie,03 5886 1300,-35.355392,145.724503
+Hay District Hospital,351 Murray Street,Hay,02 6990 8700,-34.499908,144.840683
+Henty Hospital,"Henty Community Health Centre, Ivor Street",Henty,02 6929 4999,-35.519009,147.033966
+Hillston District Hospital,Burns Street,Hillston,02 6967 2502,-33.480667,145.537888
+Holbrook District Hospital,Bowler Street,Holbrook,02 6036 2522,-35.723171,147.317947
+Griffith Base Hospital,Warrambool Street,Griffith,02 6969 5555,-34.281258,146.04512
+Deniliquin Hospital,411 Charlotte Street,Deniliquin,03 5882 2800,-35.524788,144.962784
+Grafton Base Hospital,Arthur Street,Grafton,02 6640 2222,-29.679771,152.947281
+Kyogle Memorial Hospital,Summerland Way,Kyogle,02 6632 1522,-32.831026,150.139
+Maclean District Hospital,21 Union Street,Maclean,02 6640 0111,-29.455013,153.203674
+Lismore Base Hospital,Uralba Street,Lismore,02 6621 8000,-28.809031,153.283417
+Murwillumbah District Hospital,Ewing Street,Murwillumbah,02 6672 1822,-28.324003,153.395798
+Mullumbimby & District War Memorial Hospital,Azalea Street,Mullumbimby,02 6684 2266,-28.559793,153.493317
+Nimbin Multi-Purpose Service,35 Cullen Street,Nimbin,02 6689 1400,-28.597393,153.222717
+Casino & District Memorial Hospital,Hotham Street,Casino,02 6662 2111,-28.856903,153.037582
+"Campbell Hospital, Coraki",Spring Street,Coraki,02 6683 2019,-28.992558,153.276947
+Bonalbo Hospital,Clarence Way,Bonalbo,02 6665 1203,-28.724092,152.606888
+Byron District Hospital,Shirley & Wordsworth Sts,Byron Bay,02 6685 6200,-28.641104,153.608856
+Ballina District Hospital,Cherry Street,Ballina,02 6686 2111,-28.870001,153.561783
+Urbenville Health Service,45 Beaury Street,Urbenville,02 6948 1319,-28.472025,152.542892
+The Tweed Hospital,Powell Street,Tweed Heads,07 5536 1133,-28.177975,153.544617
+St John of God Hospital,234 Bourke Street,Goulburn,02 4823 7800,-34.749264,149.719818
+Yass District Hospital,Meehan Street,Yass,(02) 6220 2000,-34.842766,148.910202
+Bega District Hospital,McKee Drive,Bega,02 6492 9111,-36.681248,149.838577
+Bateman's Bay District Hospital,7 Pacific Street,Batemans Bay,02 4475 1500,-35.713253,150.181702
+Braidwood Multi Purpose Service,73 Monkittee Street,Braidwood,02 4842 2566,-35.443241,149.804871
+Bombala District Hospital,Wellington Street,Bombala,02 6458 5777,-36.911839,149.242859
+Cooma Hospital & Health Service,Bent Street,Cooma,02 6455 3222,-36.2421,149.129578
+Crookwell District Hospital,Kialla Road,Crookwell,02 4832 1300,-34.462379,149.468735
+Delegate Multi-Purpose Service,Craigie Street,Delegate,02 6459 8000,-37.045185,148.940964
+Pambula District Hospital,Merimbola Street,Pambula,02 6495 8200,-36.93063,149.876953
+Queanbeyan District Hospital,Corner Erin & Collett Streets,Queanbeyan,02 6298 9211,-35.353149,149.237015
+Moruya District Hospital,River Street,Moruya,02 4474 2666,-35.906567,150.076538
+Goulburn Base Hospital,130 Goldsmith Street,Goulburn,02 4827 3111,-34.7472,149.714096
+Gilgandra Multi-Purpose Health Service,Chelmsford Avenue,Gilgandra,02 6847 2366,-31.705502,148.664719
+Gulargambone Multi-Purpose Service,Bourbah Street,Gulargambone,02 6825 1201,-31.330259,148.473541
+Gulgong Health Service,Gulgong Street,Gulgong,02 6374 1200,-32.371996,149.518097
+Grenfell Multi-Purpose Service,Sullivan Street,Grenfell,02 6349 1700,-33.889141,148.169342
+Lightning Ridge Multi Purpose Health Service,20 Pandora Street,Lightning Ridge,02 6829 9999,-29.430008,147.983231
+Mudgee Health Service,Meares Street,Mudgee,02 6378 6222,-32.603767,149.586517
+Narromine Hospital & Community Health,128 Cathundril Street,Narromine,02 6889 1377,-32.242176,148.239807
+Molong Health Service,King Street,Molong,02 6366 8606,-33.091763,148.858627
+Parkes District Hospital,18 Coleman Road,Parkes,(02) 6861 2400,-33.121582,148.171204
+Peak Hill Health Service,Newell Highway,Peak Hill,02 6869 1406,-32.724609,148.191162
+Nyngan Multi-Purpose Service,15 Hoskins Street,Nyngan,02 6835 1700,-31.557692,147.203384
+Oberon Health Service,75 North Street,Oberon,02 6336 7200,-33.705025,149.853973
+Orange Health Service,1502 Forest Road,Orange,02 6369 3000,-33.317135,149.090515
+Cowra District Hospital,64 Liverpool Street,Cowra,02 6340 2300,-33.833015,148.694855
+Condobolin District Hospital,Madline Street,Condobolin,02 6890 1500,-33.082706,147.152039
+Coolah Multi-Purpose Health Service,Martin Street,Coolah,02 6377 1007,-31.825171,149.722107
+Forbes District Hospital,Elgin Street,Forbes,02 6850 2000,-33.395885,148.013168
+Eugowra Memorial Multi Purpose Service,Hill Street,Eugowra,02 6850 4000,-33.424068,148.369064
+Dubbo Base Hospital,Myall Street,Dubbo,02 6885 8666,-32.239147,148.606613
+Dunedoo Health Service,Digilah Street,Dunedoo,02 6375 1408,-32.017288,149.389847
+Coonabarabran District Hospital,101-103 Edwards Street,Coonabarabran,02 6826 6100,-31.275509,149.284988
+Coonamble Health Service,15 Castlereagh Street,Coonamble,02 6827 1100,-30.95083,148.388977
+Collarenebri Health Service,Walgett Street,Collarenebri,02 6756 4888,-29.545895,148.576233
+Canowindra Soldiers Memorial Hospital,Browns Avenue,Canowindra,02 6340 3033,-33.557568,148.673691
+Cobar District Hospital,Lerida Road,Cobar,02 6836 2406,-31.514627,145.810196
+Blayney District Hospital,3 Osman Street,Blayney,02 6368 9000,-33.537189,149.251755
+Bourke District Hospital,26 Tarcoon Street,Bourke,02 6870 8888,-30.088896,145.947372
+Brewarrina Multi-Purpose Service,56 Doyle Street,Brewarrina,02 6830 5000,-29.961969,146.863373
+Bathurst Base Hospital,Howick Street,Bathurst,02 6330 5311,-33.411674,149.57605
+Baradine Multi-Purpose Service,Cnr Darling and Macquarie Street,Baradine,02 6843 1909,-30.952423,149.066284
+Peg Cross Nursing Home,Fox Street ,Walgett,02 6828 6000,-30.020008,148.116943
+Walgett Health Service,141 Fox Street,Walgett,02 6828 6000,-30.023855,148.116287
+Warren Multi-Purpose Health Service,Dr Kater Drive,Warren,02 6847 4303,"-31.694506,147.838541",147.855713
+Wellington Health Service,Gisborne Street,Wellington,02 6840 7200,-32.551151,148.957535
+Rylstone District Hospital,Fitzgerald Street,Rylstone,02 6357 8111,-32.803551,149.975464
+Tottenham Hospital,Umang Street,Tottenham,02 6892 4003,-32.243382,147.350159
+Trangie Multi-Purpose Health Service,28 Harris Street,Trangie,02 6888 7546,-32.031345,147.976654
+Trundle Multi-Purpose Service,Brookview Street,Trundle,02 6892 1051,-32.917736,147.704559
+Tullamore Health Service,1 Hinkler Street,Tullamore,02 6892 5003,-32.635342,147.565598
+The Children's Hospital at Westmead,Cnr Hawkesbury Rd and Hainsworth St,Westmead,02 9845 0000,-33.814514,150.98465
+Sydney Children's Hospital,High Street,Randwick,02 9382 1111,-33.916821,151.238693
+St Joseph's Hospital,Normanby Road,Auburn,02 9649 8941,-33.847984,151.028778
+St Vincent's Hospital,390 Victoria Street,Darlinghurst,02 8382 1111,-33.878685,151.221313
+Sacred Heart Hospice,170 Darlinghurst Road,Darlinghurst ,02 8382 9444,-33.875816,151.22171
+Albury Wodonga Health,201 Borella Road,Albury,02 6058 4444,-36.076839,146.939819

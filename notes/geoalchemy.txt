@@ -1,0 +1,111 @@
+from sqlalchemy import *
+from sqlalchemy.orm import create_session, sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+from geoalchemy import *
+import simplejson as json
+import urllib2
+
+#Create and engine and get the metadata
+#Base = declarative_base()
+
+engine = create_engine('postgresql://abs:abs@localhost/abs', echo=True)
+Session = sessionmaker(bind=engine)
+session = Session()
+
+
+metadata = MetaData(bind=engine)
+Base = declarative_base(metadata=metadata)
+
+class sa1(Base):
+    __tablename__ = 'sa1'
+    __table_args__ = {'autoload': True, 'schema': 'asgs_2011'}
+    geom = GeometryColumn(MultiPolygon(1,srid=4326))
+
+    
+class sa2(Base):
+    __tablename__ = 'sa2'
+    __table_args__ = {'autoload': True, 'schema': 'asgs_2011'}
+    geom = GeometryColumn(MultiPolygon(1,srid=4326))
+    
+    
+class syd_transit(Base):
+    __tablename__ = 'sydney'
+    __table_args__ = {'schema': 'transit'}
+    id = Column(Integer, primary_key=True)
+    from_code = Column(Integer, ForeignKey('asgs_2011.sa1.code'))
+    to_code = Column(Integer, ForeignKey('asgs_2011.sa1.code'))
+    time = Column(Integer)
+    
+    
+class medicare(Base):
+    __tablename__ = 'medicare'
+    __table_args__ = {'autoload': True, 'schema': 'govhack_2013'}
+    geom = GeometryColumn(Point())
+    
+    
+class mb(Base):
+    __tablename__ = 'mb'
+    __table_args__ = {'autoload': True, 'schema': 'asgs_2011'}
+    geom = GeometryColumn(MultiPolygon(1,srid=4326))
+
+    
+box = 'POLYGON((149.343 -34.865, 151.908 -34.865, 151.908 -32.384, 149.343 -32.384, 149.343 -34.865))'
+nsw_sa1_list_1 = session.query(sa1).filter(sa1.geom.within(box))
+nsw_sa1_list_2 = session.query(sa1).filter(sa1.geom.within(box))
+
+url = "http://192.168.83.80:8080/opentripplanner-api-webapp/ws/plan?_dc=1369733577423&arriveBy=true&numItineraries=1&time=8%3A30am&ui_date=5%2F28%2F2013&mode=TRANSIT%2CWALK&optimize=QUICK&maxWalkDistance=840&walkSpeed=1.341&date=2013-05-28"
+
+def get_coords(item):
+    json_coords = session.scalar(postgis.pg_functions.geojson(functions.centroid(item.geom)))
+    coords = json.loads(json_coords)['coordinates']
+    return "%s,%s" % (coords[1], coords[0])
+    
+import itertools
+for f,b in itertools.izip_longest(nsw_sa1_list_1,nsw_sa1_list_2):
+    url_to_query = url + "&toPlace=%s&fromPlace=%s" % (get_coords(f), get_coords(b))
+    f = urllib2.urlopen(url_to_query).read()
+    plan = json.loads(f)['plan']
+    if plan:
+        duration = plan['itineraries'][0]['duration']
+        print duration
+
+
+
+mb_within_medicare = session.query(mb, medicare).filter(mb.geom.within_distance(medicare.geom, .005)).all()
+
+
+s1 = session.query(sa1).filter(sa1.code == "10101100102").first()
+s2 = session.query(sa1).filter(sa1.code == "10101100103").first()
+c = syd_transit()
+c.from_code = s1.code
+c.to_code = s2.code
+c.time = 3
+session.add(c)
+session.commit()
+
+t = session.query(syd_transit).filter(syd_transit.time < 20)
+
+#Create a session to use the tables    
+#session = create_session(bind=engine)
+
+#testlist = session.query(bcp_proficiency_in_spoken_english_of_parents_lga).all()    
+
+#for test in testlist:
+#    testauthor = session.query(Users).filter_by(id=test.author_id).first() 
+
+# get MB listing for Willoughby
+mb_list = session.query(mb).filter(mb.lga == '18250')
+one_mb = mb_list[10]
+session.scalar(postgis.pg_functions.geojson(one_mb.geom))
+
+geom_list = []
+for meshblock in mb_list:
+    geom_list.append(session.scalar(postgis.pg_functions.geojson(meshblock.geom)))
+    
+medicare_list = session.query(medicare).all()
+a = medicare_list[50]
+session.query(mb).filter(mb.geom.intersects(a.geom)).count()
+
+mb_within_medicare = session.query(mb, medicare).filter(mb.geom.within_distance(medicare.geom, .005)).all()
+
+# Query idea: first do a multi table join based on their preferences, and return mesh blocks in quadrants. Four queries only?

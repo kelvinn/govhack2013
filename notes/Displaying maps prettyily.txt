@@ -1,0 +1,7 @@
+Merge polygons of same type: http://postgis.refractions.net/docs/ST_Collect.html and http://gis.stackexchange.com/questions/31895/what-is-the-best-way-to-join-lots-of-small-polygons-to-form-a-larger-polygon
+
+Then smooth the edges somehow?
+Run: http://www.postgis.org/docs/ST_Simplify.html
+
+
+Then layer based on order, 1=good, 5=pretty bad, everything else is shaded out

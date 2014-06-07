@@ -1,0 +1,30 @@
+
+from locator.models import *
+from django.contrib.gis.geos import *
+from django.contrib.gis.measure import D 
+
+qs = MethodOfTravel.objects.all()
+
+qs = Medicare.objects.all()
+mb = Mb.objects.all()
+
+
+Zipcode.objects.filter(poly__dwithin=(geom, D(m=5)))
+
+Medicare.objects.filter(geom__dwithin=(geom, D(m=5)))
+
+Medicare.objects.touches(
+
+a = qs[55]
+Mb.objects.filter(geom__dwithin=(a.geom, D(m=5)))
+Zipcode.objects.filter(poly__touches=geom)
+Mb.objects.filter(geom__touches=a.geom)
+
+
+Mb.objects.filter(geom__intersects=a.geom)
+
+Order.objects.filter(origin__distance_lte=(user.profile.geo_location, D(m=3000)))
+Mb.objects.filter(geom__distance_lte=(Medicare.geom, D(m=1000)))
+Mb.objects.filter(geom__intersects=a.geom)
+
+

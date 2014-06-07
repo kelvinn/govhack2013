@@ -1,0 +1,206 @@
+export PGHOST=127.0.0.1
+export PGHOST=localhost
+export PGDATABASE=abs
+export PGUSER=abs
+
+
+\copy medicare.offices(name,latitude,longitude) FROM '/home/kelvinn/medicare_offices_2013_05_07.csv' DELIMITERS ',' CSV HEADER;
+
+# to set the srid on the table so queries work
+select UpdateGeometrySRID('asgs_2011', 'centrelink', 'geom', 4326) ;
+
+# creating a table to store points
+CREATE TABLE govhack_2013.universities
+(
+  gid serial NOT NULL,
+  name character varying(50),
+  latitude character varying(50),
+  longitude character varying(50),
+  geom geometry,
+  CONSTRAINT universities_pkey PRIMARY KEY (gid),
+  CONSTRAINT enforce_dims_geom CHECK (st_ndims(geom) = 2),
+  CONSTRAINT enforce_geotype_geom CHECK (geometrytype(geom) = 'POINT'::text OR geom IS NULL),
+  CONSTRAINT enforce_srid_geom CHECK (st_srid(geom) = 4326)
+)
+
+CREATE TABLE govhack_2013.healthcare
+(
+  gid serial NOT NULL,
+  name character varying(100),
+  phone character varying(20),
+  latitude character varying(50),
+  longitude character varying(50),
+  geom geometry,
+  CONSTRAINT healthcare_pkey PRIMARY KEY (gid),
+  CONSTRAINT enforce_dims_geom CHECK (st_ndims(geom) = 2),
+  CONSTRAINT enforce_geotype_geom CHECK (geometrytype(geom) = 'POINT'::text OR geom IS NULL),
+  CONSTRAINT enforce_srid_geom CHECK (st_srid(geom) = 4326)
+)
+
+CREATE TABLE govhack_2013.libraries
+(
+  gid serial NOT NULL,
+  name character varying(100),
+  latitude character varying(50),
+  longitude character varying(50),
+  address text,
+  website text,
+  geom geometry,
+  CONSTRAINT libraries_pkey PRIMARY KEY (gid),
+  CONSTRAINT enforce_dims_geom CHECK (st_ndims(geom) = 2),
+  CONSTRAINT enforce_geotype_geom CHECK (geometrytype(geom) = 'POINT'::text OR geom IS NULL),
+  CONSTRAINT enforce_srid_geom CHECK (st_srid(geom) = 4326)
+)
+
+
+CREATE TABLE govhack_2013.medicare
+(
+  gid serial NOT NULL,
+  name character varying(50),
+  latitude character varying(50),
+  longitude character varying(50),
+  geom geometry,
+  CONSTRAINT offices_pkey PRIMARY KEY (gid),
+  CONSTRAINT enforce_dims_geom CHECK (st_ndims(geom) = 2),
+  CONSTRAINT enforce_geotype_geom CHECK (geometrytype(geom) = 'POINT'::text OR geom IS NULL),
+  CONSTRAINT enforce_srid_geom CHECK (st_srid(geom) = 4326)
+);
+
+# copying in data into the 'medicare' table
+\copy govhack_2013.medicare(name,latitude,longitude) FROM '/home/kelvinn/medicare.csv' DELIMITERS ',' CSV HEADER;
+
+# now for centrelinke
+\copy govhack_2013.centrelink(name,code,office_type,type_code,shop_level,building,street_address,city,state,postcode,postal_address,open_hours,longitude,latitude) FROM '/home/kelvinn/centrelink.csv' DELIMITERS ',' CSV HEADER;
+
+CREATE TABLE govhack_2013.centrelink
+(
+  gid serial NOT NULL,
+  name character varying(50),
+  code character varying(10),
+  office_type character varying(50),
+  type_code character varying(5),
+  shop_level character varying(50),
+  building character varying(75),
+  street_address text,
+  city character varying(30),
+  state character varying(10),
+  postcode integer,
+  postal_address text,
+  open_hours text,
+  latitude character varying(50),
+  longitude character varying(50),
+  geom geometry,
+  CONSTRAINT centrelink_pkey PRIMARY KEY (gid),
+  CONSTRAINT enforce_dims_geom CHECK (st_ndims(geom) = 2),
+  CONSTRAINT enforce_geotype_geom CHECK (geometrytype(geom) = 'POINT'::text OR geom IS NULL),
+  CONSTRAINT enforce_srid_geom CHECK (st_srid(geom) = 4326)
+);
+
+# combining longitude and latitude into proper geometries
+UPDATE govhack_2013.medicare
+SET geom = ST_GeomFromText('POINT(' || latitude || ' ' || longitude || ')',4326);
+
+# now for centrelink
+UPDATE govhack_2013.libraries
+SET geom = ST_GeomFromText('POINT(' || longitude || ' ' || latitude || ')',4326);
+
+# connection string for TileMill
+host=192.168.70.128 user=abs password=abs dbname=abs
+
+# how to find the srid of a table
+select * from geometry_columns where f_table_name = govhack_2013.medicare
+SELECT Find_SRID('transit', 'tz_nsw_2011', 'geom');
+
+# how to set the srid of a table
+select UpdateGeometrySRID('transit', 'tz_nsw_2011', 'geom', 4326) ;
+select UpdateGeometrySRID('asgs_2011', 'lga', 'geom', 4326) ;
+
+# function to do bounding polygon
+http://postgis.org/docs/ST_ConcaveHull.html
+
+# this query does all dwithin and a join
+select *
+from asgs_2011.mb as mb,
+govhack_2013.medicare as medicare
+WHERE ST_DWithin(medicare.geom, mb.geom, 0.005);
+# small = .001
+	  
+# medium = .005
+# large = .008
+
+# create a table
+CREATE TABLE govhack_2013.rent (
+    gid serial PRIMARY KEY,
+    lga_code integer,
+    house_2b integer,
+    house_3b integer,
+    flat_1b integer,
+    flat_2b integer,
+    avg_all integer,
+    rank integer,
+    lga asgs_2011.lga_code REFERENCES asgs_2011.lga (code)
+)
+
+CREATE TABLE govhack_2013.services (
+    gid serial PRIMARY KEY,
+    tz integer REFERENCES govhack_2013.tz_nsw_2011 (gid),
+    supermarket integer,
+    health integer,
+    library integer
+)
+
+
+CREATE TABLE govhack_2013.rent (
+    gid serial PRIMARY KEY,
+    from_code asgs_2011.sa2_code REFERENCES asgs_2011.sa2 (code),
+    to_code asgs_2011.sa2_code REFERENCES asgs_2011.sa2 (code),
+    time integer
+);
+
+
+
+CREATE TABLE transit.sydney_tz (
+    id serial PRIMARY KEY,
+    from_tz integer REFERENCES transit.tz_nsw_2011 (gid),
+    to_tz integer REFERENCES transit.tz_nsw_2011 (gid),
+    duration integer
+);
+
+
+CREATE TABLE govhack_2013.uni_tz_active (
+    gid serial PRIMARY KEY,
+    tz integer REFERENCES govhack_2013.tz_nsw_2011 (gid),
+    uni integer REFERENCES govhack_2013.universities (gid),
+    duration integer
+)
+
+
+CREATE TABLE govhack_2013.crime (
+    gid serial PRIMARY KEY,
+    lga_code integer,
+    lga asgs_2011.lga_code REFERENCES asgs_2011.lga (code),
+    crime_sum_2011 integer,
+    crime_5yr_sum integer,
+    crime_avgyr integer,
+    populations integer,
+    rate_5yr_avg float,
+    rank_5yr_avg float,
+    rate_2011 float,
+    rank_2011 integer
+)
+
+
+\copy govhack_2013.medicare(lga_code,crime_sum_2011,crime_5yr_sum,crime_avgyr,populations,rate_5yr_avg,rank_5yr_avg,rate_2011,rank_2011) FROM '/home/kelvinn/medicare.csv' DELIMITERS ',' CSV HEADER;
+
+# sample spacial query
+
+
+
+SELECT * FROM sa2
+INNER JOIN sa2 ON ST_Within(ST_GeomFromText('POLYGON((149.343 -34.865, 151.908 -34.865, 151.908 -32.384, 149.343 -32.384, 149.343 -34.865))'))
+
+
+(select gid, mb_code11, mb_cat11, sa2_name11, sa1_main11, sa2_main11, pop_dw_density, geom, commute_time, commute_dest from mb_2011_nsw where gcc_code11 = '1GSYD') as mb
+
+Bounds: 150.1721,-34.3797,151.6223,-33.0823
+
